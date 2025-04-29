@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>UA Nav Access Chatbot</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; margin: 0; padding: 2rem; }
+    #chatbox { background: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 0 15px rgba(0,0,0,0.1); max-width: 800px; margin: auto; border-top: 6px solid #8C1D40; }
+    h1 { color: #0C234B; text-align: center; }
+    .message { margin: 1rem 0; }
+    .user { text-align: right; color: #8C1D40; }
+    .bot { text-align: left; color: #0C234B; }
+    .bot-bubble { background: #e8edf5; padding: 1rem; border-radius: 10px; font-size: 0.95rem; line-height: 1.6; }
+    #text-input-area { margin-top: 1rem; display: flex; gap: 0.5rem; }
+    #text-input-area input { flex-grow: 1; padding: 0.5rem; border-radius: 6px; border: 1px solid #ccc; }
+    #text-input-area button { background: #0C234B; color: white; border: none; padding: 0.5rem 1.2rem; border-radius: 6px; cursor: pointer; }
+    #text-input-area button:hover { background: #8C1D40; }
+  </style>
+</head>
+<body>
+<div id="chatbox">
+  <h1>UA Nav Access Chatbot</h1>
+  <div id="messages"></div>
+  <div id="text-input-area">
+    <input type="text" id="user-message" placeholder="Type here..." />
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+<script>
+let state = {
+  awaitingNearby: false,
+  awaitingDirection: false,
+  savedAddress: null,
+  selectedBuilding: null,
+  isConfirmingDirection: false
+};
+
+function addMessage(role, text) {
+  const div = document.createElement("div");
+  div.className = `message ${role}`;
+  div.innerHTML = text;
+  messages.appendChild(div);
+  messages.scrollTop = messages.scrollHeight;
+}
+
+const messages = document.getElementById("messages");
+const sendBtn = document.getElementById("send-btn");
+const userMessageInput = document.getElementById("user-message");
+
+// Initial greeting
+addMessage("bot", "<div class='bot-bubble'>👋 Hi! Please type the name of the building you want to navigate to.</div>");
+
+// Handle Enter key press
+userMessageInput.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    sendBtn.click();
+  }
+});
+
+sendBtn.addEventListener("click", async () => {
+  const userInput = userMessageInput.value.trim();
+  if (!userInput) return;
+
+  addMessage("user", userInput);
+  userMessageInput.value = "";
+
+  if (state.awaitingNearby) {
+    if (userInput.toLowerCase() === "yes") {
+      addMessage("bot", "<div class='bot-bubble'>🔄 Loading nearby buildings...</div>");
+      try {
+        const res = await fetch("http://127.0.0.1:8000/nearby", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ address: state.savedAddress })
+        });
+        
+        if (!res.ok) {
+          throw new Error(`Server returned ${res.status}`);
+        }
+        
+        const data = await res.json();
+        if (data.message) {
+          addMessage("bot", `<div class='bot-bubble'>❗ ${data.message}</div>`);
+          return;
+        }
+        
+        // Format the list for display - WITHOUT the distances
+        const formatted = data.nearby_buildings.map(b => `• ${b.name}`).join("<br>");
+        
+        addMessage("bot", `<div class='bot-bubble'><b>Nearby Buildings:</b><br>${formatted}</div>`);
+        addMessage("bot", "<div class='bot-bubble'>Please type the name of the building you want directions to.</div>");
+        state.awaitingNearby = false;
+        state.awaitingDirection = true;
+        state.isConfirmingDirection = false;
+      } catch (error) {
+        addMessage("bot", "<div class='bot-bubble'>❗ Error loading nearby buildings. Please try again.</div>");
+        console.error("Error fetching nearby buildings:", error);
+      }
+    } else {
+      addMessage("bot", "<div class='bot-bubble'>👍 No problem! Type another building name to search again.</div>");
+      resetState();
+    }
+  } else if (state.awaitingDirection && !state.isConfirmingDirection) {
+    // User has selected a building, store it and ask for confirmation
+    state.selectedBuilding = userInput;
+    addMessage("bot", `<div class='bot-bubble'>Would you like directions to <b>${state.selectedBuilding}</b>? (yes/no)</div>`);
+    state.isConfirmingDirection = true;
+  } else if (state.awaitingDirection && state.isConfirmingDirection) {
+    // User is confirming they want directions
+    if (userInput.toLowerCase() === "yes") {
+      addMessage("bot", "<div class='bot-bubble'>🔄 Getting directions...</div>");
+      try {
+        const res = await fetch("http://127.0.0.1:8000/navigate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            source_address: state.savedAddress,
+            destination_building: state.selectedBuilding
+          })
+        });
+        
+        const data = await res.json();
+        if (data.message) {
+          addMessage("bot", `<div class='bot-bubble'>❗ ${data.message}</div>`);
+        } else {
+          addMessage("bot", `<div class='bot-bubble'><b>Directions:</b><br>${data.directions.replace(/\n/g, "<br>")}</div>`);
+        }
+        resetState();
+      } catch (error) {
+        addMessage("bot", "<div class='bot-bubble'>❗ Error getting directions. Please try again.</div>");
+        console.error("Error fetching directions:", error);
+      }
+    } else {
+      addMessage("bot", "<div class='bot-bubble'>👍 Got it. You can type another building name for directions.</div>");
+      state.isConfirmingDirection = false;
+    }
+  } else {
+    try {
+      const res = await fetch("http://127.0.0.1:8000/lookup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ building_name: userInput })
+      });
+      
+      if (!res.ok) {
+        throw new Error(`Server returned ${res.status}`);
+      }
+      
+      const data = await res.json();
+      if (data.message) {
+        addMessage("bot", `<div class='bot-bubble'>❗ ${data.message}</div>`);
+        return;
+      }
+      
+      state.savedAddress = data.address;
+      addMessage("bot", `<div class='bot-bubble'>
+        <b>Building Name:</b> ${data.building_name}<br>
+        <b>Building Number:</b> ${data.building_number}<br>
+        <b>Address:</b> 📍 ${data.address}
+      </div>`);
+      addMessage("bot", "<div class='bot-bubble'>Would you like to see nearby buildings? (yes/no)</div>");
+      state.awaitingNearby = true;
+    } catch (error) {
+      addMessage("bot", "<div class='bot-bubble'>❗ Error looking up building. Please try again.</div>");
+      console.error("Error looking up building:", error);
+    }
+  }
+});
+
+function resetState() {
+  state.awaitingNearby = false;
+  state.awaitingDirection = false;
+  state.savedAddress = null;
+  state.selectedBuilding = null;
+  state.isConfirmingDirection = false;
+}
+</script>
+
+</body>
+</html>

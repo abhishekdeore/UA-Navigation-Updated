@@ -1,0 +1,9 @@
+pytesseract
+Pillow
+langchain-openai
+langchain-core
+python-dotenv
+geopy 
+overpy
+streamlit
+playwright

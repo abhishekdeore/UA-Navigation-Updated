@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UA Nav Access Chatbot</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 2rem; }
+    #chatbox { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 800px; margin: auto; }
+    .message { margin-bottom: 1rem; }
+    .user { text-align: right; color: #1a73e8; }
+    .bot { text-align: left; color: #444; }
+    .bot-bubble {
+      background: #f1f3f4;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    .llm-block {
+      background: #fff;
+      padding: 0.8rem;
+      border-left: 4px solid #1a73e8;
+      margin-top: 1rem;
+      white-space: pre-wrap;
+    }
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+    #text-input-area {
+      margin-top: 1rem;
+      display: flex;
+      gap: 0.5rem;
+    }
+    #text-input-area input {
+      flex-grow: 1;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    #text-input-area button {
+      padding: 0.5rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="chatbox">
+    <h2>UA Nav Access Chatbot</h2>
+    <form id="upload-form" enctype="multipart/form-data">
+      <input type="file" name="file" id="file" required>
+      <button type="submit">Upload Image</button>
+    </form>
+    <div id="messages"></div>
+    <div id="text-input-area" style="display:none;">
+      <input type="text" id="user-message" placeholder="Type here...">
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <script>
+    let conversationStage = 0;
+    let lastImageResponse = null;
+
+    const uploadForm = document.getElementById("upload-form");
+    const messages = document.getElementById("messages");
+    const textInputArea = document.getElementById("text-input-area");
+    const sendBtn = document.getElementById("send-btn");
+
+    function addMessage(role, text) {
+      const div = document.createElement("div");
+      div.className = `message ${role}`;
+      div.innerHTML = text;
+      messages.appendChild(div);
+    }
+
+    function formatLLMResponse(text) {
+      return text
+        .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')
+        .replace(/\n\n/g, '<br><br>')
+        .replace(/\n/g, '<br>');
+    }
+
+    addMessage("bot", "👋 Hi! Welcome to <strong>UA Nav Access</strong>. Please upload a screenshot from <a href='https://maps.arizona.edu' target='_blank'>maps.arizona.edu</a>.");
+
+    uploadForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const fileInput = document.getElementById("file");
+      const formData = new FormData();
+      formData.append("file", fileInput.files[0]);
+
+      addMessage("user", `📤 Uploaded: ${fileInput.files[0].name}`);
+
+      const response = await fetch("http://localhost:8000/chat", {
+        method: "POST",
+        body: formData
+      });
+      const data = await response.json();
+      lastImageResponse = data;
+
+      if (data.error) {
+        addMessage("bot", `<div class='error'>❗ ${data.error}</div>`);
+        return;
+      }
+
+      addMessage("bot", `📍 <strong>${data.building_name}</strong><br><b>Address:</b> ${data.address}<br><br>Would you like to know the nearby buildings? (yes/no)`);
+      conversationStage = 1;
+      textInputArea.style.display = "flex";
+    });
+
+    sendBtn.addEventListener("click", () => {
+      const userInput = document.getElementById("user-message").value.trim().toLowerCase();
+      if (!userInput) return;
+      addMessage("user", userInput);
+      document.getElementById("user-message").value = "";
+
+      if (conversationStage === 1 && userInput === "yes") {
+        addMessage("bot", `<b>Nearby Buildings:</b> ${lastImageResponse.nearby_buildings.join(', ')}<br><br>Would you like to know the <b>Description of Surroundings</b> and <b>Route Summaries</b>? (yes/no)`);
+        conversationStage = 2;
+      } else if (conversationStage === 2 && userInput === "yes") {
+        addMessage("bot", `<div class='bot-bubble'><div class='llm-block'>${formatLLMResponse(lastImageResponse.llm_response)}</div></div>`);
+        conversationStage = 3;
+      } else if (["no", "exit"].includes(userInput)) {
+        addMessage("bot", `Okay! Let me know if you need anything else. 👋`);
+        conversationStage = 0;
+      } else {
+        addMessage("bot", `Sorry, I didn't understand. Please reply with "yes" or "no".`);
+      }
+    });
+  </script>
+</body>
+</html>

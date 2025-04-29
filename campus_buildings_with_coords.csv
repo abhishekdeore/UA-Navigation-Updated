@@ -1,0 +1,864 @@
+Code,Alpha,Name,Address,City,State,Zip,Gross Area,Assignable,Latitude,Longitude
+2.0,2,Art Building &amp; Art Museum,1031 N Olive Rd,Tucson,AZ,85719,"71,382.00","50,787.00",38.6772626,-88.47972039999999
+2.01,2A,Art Building Addition,1031 N Olive Rd,Tucson,AZ,85719,"21,924.00","14,743.00",38.6772626,-88.47972039999999
+3.0,3,Drama,1025 N Olive Rd,Tucson,AZ,85719,"31,200.00","10,761.00",32.2352758,-110.9563672
+3.01,3A,Drama Addition,1025 N Olive Rd,Tucson,AZ,85719,"61,116.00","39,330.00",32.2352758,-110.9563672
+4.0,4,Fred Fox School of Music,1017 N Olive Rd,Tucson,AZ,85719,"59,611.00","33,107.00",32.2348661,-110.954792
+4.01,4A,Fred Fox School of Music Addition,1017 N Olive Rd,Tucson,AZ,85719,"53,236.00","32,627.00",32.2348661,-110.954792
+5.0,5,Coconino Residence Hall,1003 N Olive Rd,Tucson,AZ,85719,"29,568.00","19,958.00",32.234184,-110.9554014
+6.0,6,Slonaker House,1027 E 2 St,Tucson,AZ,85719,"10,821.00","6,913.00",,
+7.0,7,Manzanita Residence Hall,1010 N Park Ave,Tucson,AZ,85719,"44,046.00","26,530.00",28.6983213,-81.509232
+7.01,7A,Mohave Residence Hall,1000 N Park Ave,Tucson,AZ,85719,"42,043.00","24,791.00",32.2343173,-110.9563602
+8.0,8,Gila Residence Hall,1009 E James E Rogers Way,Tucson,AZ,85719,"39,421.00","24,874.00",32.2329727,-110.954714
+9.0,9,Maricopa Residence Hall,1031 E James E Rogers Way,Tucson,AZ,85719,"33,410.00","22,396.00",32.2329727,-110.954714
+10.0,10,Yuma Residence Hall,1107 E James E Rogers Way,Tucson,AZ,85719,"40,195.00","25,685.00",32.2329727,-110.954714
+11.0,11,John W. Harshbarger Building,1133 E James E Rogers Way,Tucson,AZ,85719,"74,211.00","53,142.00",32.2329727,-110.954714
+12.0,12,Mines And Metallurgy,1235 E James E Rogers Way,Tucson,AZ,85719,"39,495.00","27,543.00",32.2329727,-110.954714
+14.0,14,Transitional Office Building,1731 E 2 St,Tucson,AZ,85719,"10,561.00","6,851.00",,
+17.0,17,Student Union Memorial Center,1303 E University Blvd,Tucson,AZ,85719,"245,035.00","161,286.00",32.2325991,-110.9519852
+19.0,19,Student Union Memorial Center - Campus Store,1209 E University Blvd,Tucson,AZ,85719,"153,004.00","106,730.00",32.2329695,-110.9522643
+20.0,20,Engineering,1127 E James E Rogers Way,Tucson,AZ,85719,"65,064.00","43,453.00",32.2329727,-110.954714
+21.0,21,Old Main,1200 E University Blvd,Tucson,AZ,85719,"55,827.24","15,132.00",32.2318891,-110.9534867
+23.0,23,Cesar E. Chavez Building,1110 E James E Rogers Way,Tucson,AZ,85719,"59,932.00","33,053.00",32.2329727,-110.954714
+24.0,24,Center For English As A Second Language,1100 E James E Rogers Way,Tucson,AZ,85719,"19,547.00","13,490.00",32.2329727,-110.954714
+25.0,25,Communication,1103 E University Blvd,Tucson,AZ,85719,"26,629.00","15,948.00",32.2323206,-110.9546935
+26.0,26,Raymond H Thompson Building,1013 E University Blvd,Tucson,AZ,85719,"122,191.00","82,956.00",32.23243,-110.9556832
+27.0,27,Social Sciences,1145 E South Campus Dr,Tucson,AZ,85719,"80,346.00","46,604.00",32.2311227,-110.9540918
+28.0,28,Douglass,1100 E University Blvd,Tucson,AZ,85719,"20,502.00","11,298.00",32.2313925,-110.9547294
+29.0,29,Centennial Hall,1020 E University Blvd,Tucson,AZ,85719,"85,881.00","34,416.00",32.2309508,-110.9554234
+30.0,30,Arizona State Museum South,1010 E University Blvd,Tucson,AZ,85719,"28,825.00","25,147.00",32.2314008,-110.9562044
+30.01,30A,Emil W. Haury Anthropology Building,1009 E South Campus Dr,Tucson,AZ,85719,"38,906.00","24,279.00",32.2307913,-110.9560429
+31.0,31,Cochise Residence Hall,1018 E South Campus Dr,Tucson,AZ,85719,"43,714.00","28,096.00",32.2304278,-110.9557721
+32.0,32,South Hall,1042 E South Campus Dr,Tucson,AZ,85719,"14,793.00","9,633.00",32.23052970000001,-110.9551637
+33.0,33,Saguaro Hall,1110 E South Campus Dr,Tucson,AZ,85719,"43,859.00","29,469.00",32.2304911,-110.9544215
+34.0,34,Yavapai Residence Hall,1121 E 4 St,Tucson,AZ,85719,"42,750.00","25,481.00",60.8297727,17.0827396
+35.0,35,Herring Hall,1130 E South Campus Dr,Tucson,AZ,85719,"7,774.00","5,903.00",32.2306719,-110.953622
+36.0,36,Forbes,1140 E South Campus Dr,Tucson,AZ,85719,"77,403.00","50,815.00",32.2309686,-110.9534181
+37.0,37,Carl S. Marvel Laboratories Of Chemistry,1230 E University Blvd,Tucson,AZ,85719,"63,108.00","27,376.00",32.2314818,-110.9514735
+38.0,38,Shantz,1177 E 4 St,Tucson,AZ,85719,"86,980.00","57,981.00",,
+40.0,40,Robert L. Nugent Building,1212 E University Blvd,Tucson,AZ,85719,"22,487.00","13,023.00",32.2313114,-110.9526788
+41.0,41,Chemistry,1306 E University Blvd,Tucson,AZ,85719,"57,592.00","29,770.00",32.231055,-110.952129
+41.01,41A,The Commons,1306 E University Blvd,Tucson,AZ,85719,"23,990.00","13,901.00",32.231055,-110.952129
+43.0,43,Biological Sciences East,1311 E 4 St,Tucson,AZ,85719,"65,733.00","42,194.00",60.8297727,17.0827396
+44.0,44,Chemical Sciences Building,1305 E 4 St,Tucson,AZ,85719,"87,944.00","46,929.00",60.8297727,17.0827396
+45.0,45,Tree Ring Archives,604 N Santa Rita Ave,Tucson,AZ,85719,"21,989.91","15,689.00",32.2291638,-110.9525908
+45.01,45A,Tree Ring Shop,604 N Santa Rita Ave,Tucson,AZ,85719,"1,850.00","1,801.00",32.2291638,-110.9525908
+45.02,45B,Bryant Bannister Tree Ring Building,1215 E Lowell St,Tucson,AZ,85719,"33,491.98","17,577.00",32.2290069,-110.9524971
+46.0,46,Central Heating And Refrigeration Plant,640 N Santa Rita Ave,Tucson,AZ,85719,"34,951.00","3,268.00",32.2298646,-110.9523042
+46.02,46B,Electrical Services Annex,630 N Santa Rita Ave,Tucson,AZ,85719,"1,821.00","1,368.00",32.229514,-110.9519198
+50.0,50,Santa Cruz Residence Hall,550 N Highland Ave,Tucson,AZ,85719,"33,951.00","20,387.00",41.76837889999999,-88.3296498
+50.01,50A,Apache Residence Hall,570 N Highland Ave,Tucson,AZ,85719,"29,434.00","18,942.00",41.7685576,-88.3296524
+50.02,50B,Apache Nonresidential,570 N Highland Ave,Tucson,AZ,85719,"1,442.00",898.00,41.7685576,-88.3296524
+52.0,52,Greenlee Residence Hall,610 N Highland Ave,Tucson,AZ,85719,"30,910.00","22,847.00",41.7689841,-88.3296598
+53.0,53,Graham Residence Hall,1418 E 4 St,Tucson,AZ,85719,"31,571.00","23,155.00",,
+54.0,54,Albert B. Weaver Science-Engineering Library,744 N Highland Ave,Tucson,AZ,85719,"122,142.00","93,641.00",41.7720541,-88.3295851
+55.0,55,Main Library,1510 E University Blvd,Tucson,AZ,85719,"308,129.00","241,425.00",32.2309343,-110.9491088
+55.01,55A,Main Library Expansion,1510 E University Blvd,Tucson,AZ,85719,"25,856.00","20,687.00",32.2309343,-110.9491088
+56.0,56,Bear Down Building,1428 E University Blvd,Tucson,AZ,85719,"72,267.00","24,882.00",32.2311778,-110.9500772
+56.01,56A,Bartlett Academic Success Center,1435 E 4 St,Tucson,AZ,85719,"61,619.00","35,039.00",60.8297727,17.0827396
+57.0,57,Hopi Lodge Residence Hall,1440 E 4 St,Tucson,AZ,85719,"18,711.00","13,149.00",60.8297727,17.0827396
+58.0,58,West Stadium,530 N Vine Ave,Tucson,AZ,85719,"40,482.00","24,069.00",32.2287018,-110.9494673
+58.01,58A,Arizona Stadium,540 N Vine Ave,Tucson,AZ,85719,&nbsp;,0.00,34.0691305,-117.6557835
+58.02,58B,Scholarship Suites,553 N Vine Ave,Tucson,AZ,85719,"40,218.54","22,649.00",34.0694694,-117.6562568
+58.05,58E,Lowell-Stevens Football Facility,565 N Cherry Ave,Tucson,AZ,85719,"162,510.14","73,452.00",41.9083273,-87.65429429999999
+58.06,58F,Arizona East Stadium II,541 N Cherry Ave,Tucson,AZ,85719,"35,147.23","13,303.00",41.9083273,-87.65429429999999
+59.0,59,Pinal Residence Hall,1511 E 6 St,Tucson,AZ,85719,"23,385.00","18,555.00",30.2628761,-97.7267973
+59.01,59A,Pinal Hall Nonresidential,1511 E 6 St,Tucson,AZ,85719,"13,711.00","9,360.00",30.2628761,-97.7267973
+60.0,60,Navajo Residence Hall,1557 E 6 St,Tucson,AZ,85719,"26,534.00","19,140.00",64.5628679,12.4991327
+60.01,60A,Navajo Hall Nonresidential,1557 E 6 St,Tucson,AZ,85719,"7,468.00","4,311.00",64.5628679,12.4991327
+61.0,61,Arizona East Stadium I,541 N Cherry Ave,Tucson,AZ,85719,"34,176.51","17,239.00",41.9083273,-87.65429429999999
+61.01,61A,East Stadium Addition,525 N National Championship Dr,Tucson,AZ,85719,"21,295.00","9,995.00",32.2286626,-110.9477853
+61.02,61B,Richard F Caris Mirror Lab,527 N National Championship Dr,Tucson,AZ,85719,"13,810.00","12,214.00",32.2286125,-110.9474354
+61.03,61C,Richard F Caris Mirror Lab,527 N National Championship Dr,Tucson,AZ,85719,"21,153.00","16,963.00",32.2286125,-110.9474354
+61.05,61E,Richard F Caris Mirror Lab,527 N National Championship Dr,Tucson,AZ,85719,"2,325.00","1,898.00",32.2286125,-110.9474354
+61.06,61F,Richard F Caris Mirror Lab,527 N National Championship Dr,Tucson,AZ,85719,"2,400.00","1,968.00",32.2286125,-110.9474354
+62.02,62B,Custodial,1722 E Enke Dr,Tucson,AZ,85719,"3,278.00","2,373.00",32.22931,-110.9454828
+62.04,62D,Facilities Management Ag Equipment,1783 E 6 St,Tucson,AZ,85719,"1,925.00","1,813.00",61.51108609999999,10.166497
+62.05,62E,Facilities Management Grounds Offices,1783 E 6 St,Tucson,AZ,85719,710.00,590.00,61.51108609999999,10.166497
+63.0,63,Charles P. Sonett Space Sciences Building,1541 E University Blvd,Tucson,AZ,85719,"20,291.00","12,111.00",32.2322985,-110.9485364
+63.01,63A,Charles P. Sonett Space Sciences Building Addition,1541 E University Blvd,Tucson,AZ,85719,"13,120.00","5,110.00",32.2322985,-110.9485364
+64.0,64,Steward Observatory Annex,1540 E 2 St,Tucson,AZ,85719,"6,550.00","5,089.00",21.1307047,72.6522481
+64.01,64A,Steward Observatory Temporary Modular Building,1540 E 2 St,Tucson,AZ,85719,"1,440.00","1,213.00",21.1307047,72.6522481
+65.0,65,Steward Observatory,933 N Cherry Ave,Tucson,AZ,85719,"22,144.00","13,194.00",41.9083273,-87.65429429999999
+65.01,65A,Steward Observatory Addition,933 N Cherry Ave,Tucson,AZ,85719,"57,476.00","32,419.00",41.9083273,-87.65429429999999
+65.02,65B,Steward Observatory Expansion,933 N Cherry Ave,Tucson,AZ,85719,"41,020.00","23,847.00",41.9083273,-87.65429429999999
+65.03,65C,Steward Observatory Exp I,933 N Cherry Ave,Tucson,AZ,85719,"9,021.00","5,645.00",41.9083273,-87.65429429999999
+66.0,66,Administration,1401 E University Blvd,Tucson,AZ,85719,"61,081.00","37,304.00",32.2327247,-110.9508944
+67.0,67,Modern Languages,1423 E University Blvd,Tucson,AZ,85719,"130,287.00","77,439.00",32.2324196,-110.9502408
+68.0,68,Psychology,1503 E University Blvd,Tucson,AZ,85719,"84,870.00","44,112.00",32.2318855,-110.9491151
+69.0,69,Education,1430 E 2 St,Tucson,AZ,85719,"121,986.00","71,904.00",21.1307047,72.6522481
+70.0,70,Manuel Pacheco Integrated Learning Center,1500 E University Blvd,Tucson,AZ,85719,"85,944.00","39,905.00",32.2316357,-110.9493263
+71.0,71,Speech and Hearing Sciences,1131 E 2 St,Tucson,AZ,85719,"48,326.00","29,990.00",,
+72.0,72,Civil Engineering,1209 E 2 St,Tucson,AZ,85719,"61,197.00","43,574.00",21.1307047,72.6522481
+73.0,73,Computer Center,1077 N Highland Ave,Tucson,AZ,85719,"51,285.00","32,141.00",41.7791265,-88.3292365
+73.01,73A,Computer Center Addition,1077 N Highland Ave,Tucson,AZ,85719,"41,285.00","24,868.00",41.7791265,-88.3292365
+74.0,74,SBS 1st Street Annex,1515 E 1 St,Tucson,AZ,85719,"8,839.00","6,245.00",,
+75.0,75,"College Of Architecture, Planning, And Landscape Architecture - West",1040 N Olive Rd,Tucson,AZ,85719,"40,066.00","28,775.00",32.2354021,-110.9549829
+75.01,75A,"College Of Architecture, Planning, And Landscape Architecture - East",1160 E Speedway Blvd,Tucson,AZ,85719,"41,088.00","34,135.00",32.2348661,-110.954792
+76.0,76,Richard A. Harvill Building,1103 E 2 St,Tucson,AZ,85719,"92,052.00","60,965.00",,
+77.0,77,Gould-Simpson,1040 E 4 St,Tucson,AZ,85719,"228,089.00","125,880.00",60.8297727,17.0827396
+78.0,78,McClelland Park,650 N Park Ave,Tucson,AZ,85719,"71,385.95","47,175.00",28.6914646,-81.509419
+79.0,79,Huachuca Residence Hall,940 E 4 St,Tucson,AZ,85719,"33,863.00","20,808.00",60.8297727,17.0827396
+79.01,79A,Kaibab Residence Hall,922 E 4 St,Tucson,AZ,85719,"36,318.00","24,073.00",,
+79.02,79B,Kaibab Hall Nonresidential,922 E 4 St,Tucson,AZ,85719,"1,576.00",897.00,,
+79.03,79C,Huachuca Hall Nonresidential,940 E 4 St,Tucson,AZ,85719,"2,617.00","2,055.00",60.8297727,17.0827396
+81.0,81,Physics-Atmospheric Sciences,1118 E 4 St,Tucson,AZ,85719,"133,848.00","90,929.00",,
+82.0,82,Facilities Management Elevator Shop,644 N Santa Rita Ave,Tucson,AZ,85719,"3,253.00","1,688.00",32.229943,-110.9531102
+83.0,83,Sonora Residence Hall,940 E 5 St,Tucson,AZ,85719,"65,536.00","43,833.00",,
+84.0,84,Arizona Residence Hall,910 E 5 St,Tucson,AZ,85719,"62,367.00","46,198.00",,
+85.0,85,Coronado Residence Hall,822 E 5 St,Tucson,AZ,85719,"147,356.00","115,874.00",,
+85.01,85A,La Aldea,825 E 5 St,Tucson,AZ,85719,"184,446.00","115,273.00",,
+86.02,86B,Archive Of Visual Arts,1014-1018 E 6 St,Tucson,AZ,85719,"6,969.76","6,129.00",69.77453779999999,20.5747363
+86.03,86C,TBA - 1006,1006 E 6 St,Tucson,AZ,85719,"1,229.00","1,199.00",69.77470339999999,20.575527
+86.06,86F,ROTC,1020 E 6 St,Tucson,AZ,85719,376.55,302.00,69.7743536,20.5732657
+86.07,86G,Cat Tran Service Facility,1022 E 6 St,Tucson,AZ,85719,"1,476.22","1,091.00",62.0727063,9.1245564
+86.11,86K,ROTC Storage,1144-1148 E 6 St,Tucson,AZ,85719,"3,841.00","2,947.00",65.0487715,13.3062474
+86.13,86M,TBA - 1010-1012,1010-1012 E 6 St,Tucson,AZ,85719,"3,740.00","3,179.00",62.0727064,9.1245564
+86.14,86N,Office of Sustainability Storage,1024 E 6 St,Tucson,AZ,85719,858.00,654.00,69.7744085,20.5722846
+87.0,87,UA Global Center,615 N Park Ave,Tucson,AZ,85719,"18,074.00","9,813.00",32.2296407,-110.9576993
+87.01,87A,UA Global Center Expansion,615 N Park Ave,Tucson,AZ,85719,"30,675.00","25,260.00",32.2296407,-110.9576993
+88.0,88,Biological Sciences West,1041 E Lowell St,Tucson,AZ,85719,"145,951.00","96,424.00",32.2288832,-110.955326
+88.01,88A,Ramada No 2,1111 E Lowell St,Tucson,AZ,85719,353.00,312.00,32.2291671,-110.9545272
+89.0,89,Mathematics,617 N Santa Rita Ave,Tucson,AZ,85719,"49,102.00","26,820.00",32.2293473,-110.9530673
+89.01,89A,Mathematics Teaching Laboratory,1129 E Lowell St,Tucson,AZ,85719,"5,809.00","4,165.00",32.2288128,-110.9530597
+90.0,90,Animal and Comparative Biomedical Sciences,1117 E Lowell St,Tucson,AZ,85719,"62,264.57","39,980.00",32.2288537,-110.9538134
+91.0,91,Flandrau Science Center And Planetarium,1601 E University Blvd,Tucson,AZ,85719,"29,598.00","21,645.00",32.2325025,-110.9476774
+92.0,92,Gerard P. Kuiper Space Sciences,1629 E University Blvd,Tucson,AZ,85719,"51,601.00","31,355.00",32.2323182,-110.9473358
+92.01,92A,Gerard P. Kuiper Space Sciences Addition,1629 E University Blvd,Tucson,AZ,85719,"49,297.00","22,423.00",32.2323182,-110.9473358
+93.0,93,Ina E. Gittings Building,1713 E University Blvd,Tucson,AZ,85719,"64,609.00","45,339.00",32.2320294,-110.9463412
+93.01,93A,Tennis Facility,902 N Martin Ave,Tucson,AZ,85719,457.00,117.00,27.9747851,-82.7925599
+93.02,93B,Robson Tennis Center,900 N Martin Ave,Tucson,AZ,85719,"1,977.00","1,308.00",27.9744273,-82.7925698
+94.0,94,Meinel Optical Sciences,1630 E University Blvd,Tucson,AZ,85719,"90,324.00","39,216.00",32.2314086,-110.9471124
+94.01,94A,Meinel Optical Sciences  Addition,1630 E University Blvd,Tucson,AZ,85719,"36,070.00","20,579.00",32.2314086,-110.9471124
+94.02,94B,Meinel Optical Sciences Addition I,1630 E University Blvd,Tucson,AZ,85719,765.00,747.00,32.2314086,-110.9471124
+94.04,94D,Meinel Optical Sciences West Bldg Expansion,1630 E University Blvd,Tucson,AZ,85719,"53,946.00","22,835.00",32.2314086,-110.9471124
+95.0,95,Highland Commons,1224 E Lowell St,Tucson,AZ,85719,"87,874.00","52,746.00",32.2283519,-110.9521072
+96.0,96,McKale Memorial Center,1721 E Enke Dr,Tucson,AZ,85719,"269,024.45","120,693.00",32.2299068,-110.9455634
+96.01,96A,Hillenbrand Aquatic Center,1827 E Enke Dr,Tucson,AZ,85719,"9,063.27","6,902.00",32.2309657,-110.9450326
+96.02,96B,Mary Roby Gymnastics Training Center,710 N Martin Ave,Tucson,AZ,85719,"11,708.00","8,860.00",27.9732219,-82.7918146
+96.03,96C,Eddie Lynch Athletics Pavilion,1721 E Enke Dr,Tucson,AZ,85719,"49,527.00","39,826.00",32.2299068,-110.9455634
+98.0,98,Hillenbrand Field House,1700 E 2 St,Tucson,AZ,85719,"1,313.00",800.00,21.1307047,72.6522481
+98.01,98A,Lapan Family Center,1700 E 2 St,Tucson,AZ,85719,"7,048.21","3,034.00",21.1307047,72.6522481
+98.02,98B,Rita Hillenbrand Stadium,1700 E 2 St,Tucson,AZ,85719,"28,103.83","3,895.00",21.1307047,72.6522481
+99.0,99,Stevie Eller Dance Theatre,1737 E University Blvd,Tucson,AZ,85719,"30,846.00","19,753.00",32.2326976,-110.9455964
+100.0,100,Police Department,1852 E 1 St,Tucson,AZ,85719,"17,321.00","10,086.00",,
+100.01,100A,Police Department Storage,1852 E 1 St,Tucson,AZ,85719,726.00,726.00,,
+102.0,102,Graduate and Professional Student Council,1031 N Mountain Ave,Tucson,AZ,85719,"1,099.00",763.00,34.07704890000001,-117.671106
+103.0,103,John P. Schaefer Center For Creative Photography,1030 N Olive Rd,Tucson,AZ,85719,"53,324.00","38,985.00",32.2350258,-110.9547428
+104.0,104,Electrical And Computer Engineering,1230 E Speedway Blvd,Tucson,AZ,85719,"149,582.00","85,917.00",32.2353213,-110.9533527
+105.0,105,Learning Services Building,1512 E 1 St,Tucson,AZ,85719,"28,435.00","14,613.00",,
+106.0,106,Life Sciences South,1007 E Lowell St,Tucson,AZ,85719,"87,693.00","43,964.00",32.2289874,-110.9560705
+107.0,107,Marley,1145 E 4 St,Tucson,AZ,85719,"129,785.00","66,296.00",60.8297727,17.0827396
+108.0,108,McClelland Hall,1130 E Helen St,Tucson,AZ,85719,"208,991.00","117,797.00",32.2366572,-110.9543371
+109.0,109,Marvin D. &#39;Swede&#39; Johnson Building,1111 N Cherry Ave,Tucson,AZ,85719,"41,366.93","23,991.00",41.9020825,-87.6521041
+110.01,110A,University Transit Hub,1640 E University Blvd,Tucson,AZ,85719,313.00,81.00,32.2314941,-110.9475579
+111.0,111,Biochemistry Greenhouse A,1059 E 8 St,Tucson,AZ,85719,"2,802.00","2,522.00",,
+111.01,111A,Biochemistry Greenhouse B,1059 E 8 St,Tucson,AZ,85719,"2,794.00","2,587.00",,
+112.0,112,Fluid Dynamics Research Laboratory,1025 N Mountain Ave,Tucson,AZ,85719,"4,000.00","3,645.00",34.076891,-117.6707138
+113.0,113,Henry Koffler Building,1340 E University Blvd,Tucson,AZ,85719,"128,992.00","71,052.00",28.0641994,-80.6001883
+114.0,114,Second Street Garage,1340 E 2 St,Tucson,AZ,85719,"205,024.00","162,875.00",21.1307047,72.6522481
+115.0,115,Cherry Avenue Garage,1641 E Enke Dr,Tucson,AZ,85719,"308,356.00","128,388.00",32.2299096,-110.9479577
+115.01,115A,Cherry Avenue Garage Expansion,1641 E Enke Dr,Tucson,AZ,85719,"80,264.00","46,732.00",32.2299096,-110.9479577
+116.0,116,Park Avenue Garage,1140 N Park Ave,Tucson,AZ,85719,"404,579.00","217,529.00",28.7003271,-81.50951909999999
+117.0,117,Student Recreation Center,1400 E 6 St,Tucson,AZ,85719,"135,870.00","87,913.00",70.088045,28.0876706
+117.01,117A,Student Recreation Center Expansion,1400 E 6 St,Tucson,AZ,85719,"77,642.00","46,560.00",70.088045,28.0876706
+117.02,117B,Student Recreation Center - South Field Restrooms,1400 E 6 St,Tucson,AZ,85719,782.22,143.00,70.088045,28.0876706
+117.03,117C,Student Recreation Center - North Field Restrooms,1400 E 6 St,Tucson,AZ,85719,616.00,0.00,70.088045,28.0876706
+118.0,118,Colonia De La Paz Residence Hall,602 N Highland Ave,Tucson,AZ,85719,"107,199.00","65,810.00",32.2293985,-110.9505555
+118.01,118A,Colonia De La Paz Nonresidential,602 N Highland Ave,Tucson,AZ,85719,"2,433.00","1,981.00",32.2293985,-110.9505555
+119.0,119,Aerospace And Mechanical Engineering,1130 N Mountain Ave,Tucson,AZ,85719,"184,586.00","91,029.00",34.0782635,-117.6697215
+120.0,120,Dennis Deconcini Environment And Natural Resources,520 N Park Ave,Tucson,AZ,85719,"62,390.00","38,362.00",28.6899285,-81.5101767
+121.0,121,Villa Del Puente,575 N Highland Ave,Tucson,AZ,85719,"77,693.00","38,049.00",41.7686505,-88.328769
+121.01,121A,Villa Del Puente South,525 N Highland Ave,Tucson,AZ,85719,"16,933.00","12,811.00",41.7679362,-88.3287586
+121.02,121B,Villa Del Puente Non-Residential,525 N Highland Ave,Tucson,AZ,85719,"8,435.00","4,923.00",41.7679362,-88.3287586
+122.0,122,Posada San Pedro,601 N Highland Ave,Tucson,AZ,85719,"77,693.00","38,647.00",41.7687982,-88.3287714
+123.0,123,Pueblo De La Cienega,621 N Highland Ave,Tucson,AZ,85719,"77,693.00","38,652.00",41.76924229999999,-88.3287795
+124.0,124,Facilities Management - Storage,1126 - 1128 E 6 St,Tucson,AZ,85719,"7,638.00","6,287.00",65.0487715,13.3062474
+126.0,126,Grand Challenges Research Building,750 N Cherry Ave,Tucson,AZ,85719,"129,543.00","60,461.00",41.9083273,-87.65429429999999
+127.01,127A,Leased Out,1620 E 6 St,Tucson,AZ,85719,720.00,504.00,67.8629563,15.9305344
+127.02,127B,Leased Out,1624 E 6 St,Tucson,AZ,85719,"1,350.00",945.00,67.8629563,15.9305344
+127.03,127C,Leased Out,1626 E 6 St,Tucson,AZ,85719,880.00,616.00,67.8629563,15.9305344
+127.04,127D,Leased Out,1628 E 6 St,Tucson,AZ,85719,570.00,399.00,67.8629563,15.9305344
+128.0,128,Martin Luther King Jr. Building,1322 E 1 St,Tucson,AZ,85719,"14,140.00","9,618.00",,
+129.0,129,Graduate Center,1600 E 1 St,Tucson,AZ,85719,"6,057.47","3,550.00",,
+131.0,131,Likins Hall,500 N Highland Ave,Tucson,AZ,85719,"131,391.42","70,783.00",34.0804811,-118.3382343
+132.0,132,Arbol de la Vida Residence Hall,515 N Tyndall,Tucson,AZ,85719,"234,455.27","124,607.00",45.9151626,-64.1215729
+133.0,133,Residence Life Auxiliary Services Building,542 N Euclid Ave,Tucson,AZ,85719,"7,554.28","3,915.00",34.0691311,-117.650521
+134.0,134,Beal Center,1030 N Mountain Ave,Tucson,AZ,85719,"4,361.00","3,137.00",34.0771438,-117.668453
+135.0,135,Pima Residence Hall,1340 E 1 St,Tucson,AZ,85719,"18,114.00","15,283.00",,
+135.01,135A,Pima Hall Addition,1340 E 1 St,Tucson,AZ,85719,"21,037.00","18,458.00",,
+136.0,136,Patricia A Bartlett Building,1010 N Highland Ave,Tucson,AZ,85719,"20,548.65","12,263.00",41.7775496,-88.3296773
+137.0,137,Environment and Natural Resources 2,1064 E Lowell St,Tucson,AZ,85719,"207,631.70","90,907.00",32.2285585,-110.9553043
+138.0,138,South Stadium Parking Structure,430 N Warren Ave,Tucson,AZ,85719,"317,593.79","146,940.00",32.2272652,-110.946299
+140.0,140,Richard Jefferson Gymnasium,720 N Martin Ave,Tucson,AZ,85719,"30,721.00","21,646.00",35.4744677,-97.4767332
+141.0,141,Ginny L Clements Academic Center,1720 E Enke Dr,Tucson,AZ,85719,"15,059.59","7,779.00",32.2293625,-110.9461136
+142.0,142,Cole and Jeannie Davis Sports Center,640 N National Championship Dr,Tucson,AZ,85719,"73,294.23","71,279.00",32.22905650000001,-110.9469125
+150.0,150,Helen S. Schaefer Building,1508 E Helen St,Tucson,AZ,85719,"15,315.00","9,933.00",32.2369968,-110.9493472
+151.01,151A,Babcock Office Building A,1717 E Speedway Blvd,Tucson,AZ,85719,"12,641.00","9,546.00",32.2368218,-110.945614
+151.02,151B,Babcock Residence Hall B,1717 E Speedway Blvd,Tucson,AZ,85719,"26,481.00","17,670.00",32.2368218,-110.945614
+151.03,151C,Babcock Office Building C,1717 E Speedway Blvd,Tucson,AZ,85719,"14,278.00","12,566.00",32.2368218,-110.945614
+151.04,151D,Babcock Office Building D,1717 E Speedway Blvd,Tucson,AZ,85719,"3,976.00","2,660.00",32.2368218,-110.945614
+151.05,151E,Babcock Residence Hall E,1717 E Speedway Blvd,Tucson,AZ,85719,"10,848.00","7,012.00",32.2368218,-110.945614
+151.06,151F,Babcock Residence Hall F,1717 E Speedway Blvd,Tucson,AZ,85719,"7,952.00","6,528.00",32.2368218,-110.945614
+155.06,155F,Art Works A,1509 E Helen St,Tucson,AZ,85719,"1,448.00","1,128.00",32.2376126,-110.9494178
+155.08,155H,Sonoran UCEDD,1521 E Helen St,Tucson,AZ,85719,"1,584.00","1,104.00",32.2375878,-110.9489941
+155.1,155J,The LGBTQ+ Institute,1533 E Helen St,Tucson,AZ,85719,"1,271.00","1,079.00",32.2375856,-110.9487775
+155.13,155M,Art Works B,1503 E Helen St,Tucson,AZ,85719,"1,296.00",973.00,32.2375517,-110.9495734
+155.14,155N,Art Works C,1515 E Helen St,Tucson,AZ,85719,845.00,508.00,32.2375485,-110.9492789
+156.0,156,College of Engineering - Berge Design Program,715 N Park Ave,Tucson,AZ,85719,"4,952.00","3,820.00",28.6933262,-81.5094051
+158.0,158,University Services Building,888 N Euclid Ave,Tucson,AZ,85719,"114,656.45","75,954.00",32.2324694,-110.9590921
+158.02,158B,Louise Foucar Marshall Building,845 N Park Ave,Tucson,AZ,85719,"98,145.00","54,089.00",28.6961476,-81.5093124
+159.0,159,Main Gate Garage,815 E 2 St,Tucson,AZ,85719,"254,380.00","140,103.00",21.1307047,72.6522481
+160.0,160,Tyndall Avenue Garage,880 E 4 St,Tucson,AZ,85719,"526,104.00","271,664.00",,
+167.0,167,W.A. Franke Honors College,1101 E Mabel St,Tucson,AZ,85719,"48,933.98","27,523.00",32.2390442,-110.9550993
+167.01,167A,W.A. Franke Honors College - Residence Hall,1101 E Mabel St,Tucson,AZ,85719,"302,954.37","214,673.00",32.2390442,-110.9550993
+168.0,168,University of Arizona Recreation and Wellness Center,1051 E Mabel,Tucson,AZ,85719,"68,655.38","39,355.00",,
+169.0,169,University of Arizona Honors College Parking Garage,1021 E Mabel,Tucson,AZ,85719,"130,189.00","65,028.00",,
+173.0,173,Applied Research Building,1420 E Helen St,Tucson,AZ,85719,"90,942.00","48,243.00",32.236932,-110.950697
+174.0,174,Central Refrigeration Plant,1339 E Helen St,Tucson,AZ,85719,"28,776.00","2,391.00",32.2375286,-110.9518921
+176.0,176,College Of Law Building,1201 E Speedway Blvd,Tucson,AZ,85719,"97,784.00","75,945.00",32.2363652,-110.9530604
+176.01,176A,College Of Law Building,1201 E Speedway Blvd,Tucson,AZ,85719,"13,936.00","9,007.00",32.2363652,-110.9530604
+177.0,177,Rountree Hall,1145 N Mountain Ave,Tucson,AZ,85719,"22,912.00","14,259.00",34.16104,-117.668496
+180.0,180,Sixth Street Garage,1201 E 6 St,Tucson,AZ,85719,"576,962.00","228,803.00",69.1093138,18.8539598
+180.01,180A,Facilities Management Custodial,1201 E 6 St,Tucson,AZ,85719,"1,115.00",836.00,69.1093138,18.8539598
+180.02,180B,CALS Campus Greenhouse Support Complex,1201 E 6 St,Tucson,AZ,85719,"12,885.00","10,628.00",69.1093138,18.8539598
+180.03,180C,CALS Campus Greenhouse,1201 E 6 St,Tucson,AZ,85719,"7,819.00","6,660.00",69.1093138,18.8539598
+180.04,180D,CALS Campus Greenhouse,1201 E 6 St,Tucson,AZ,85719,"1,459.00","1,366.00",69.1093138,18.8539598
+181.0,181,Parking And Transportation Office Building,1117 E 6 St,Tucson,AZ,85719,"16,605.00","8,235.00",69.20498479999999,19.7755663
+182.0,182,El Portal,501 N Highland Ave,Tucson,AZ,85719,"22,116.00","14,314.00",41.767135,-88.3288757
+184.0,184,Arid Lands Studies,1955 E 6 St,Tucson,AZ,85719,"17,246.00","11,669.00",61.52527459999999,10.15347
+184.01,184A,Arid Lands Studies Annex,1953 E 6 St,Tucson,AZ,85719,770.37,663.00,61.52527459999999,10.15347
+185.0,185,Little Chapel Of All Nations,1052 N Highland Ave,Tucson,AZ,85719,"2,566.00","1,640.00",41.7787701,-88.3297633
+186.0,186,University Facility Services,1405 N Ring Rd,Tucson,AZ,85719,"72,312.00","51,961.00",39.73838,117.31394
+190.0,190,Highland Avenue Parking Garage,1240 N Highland Ave,Tucson,AZ,85719,"489,324.00","276,255.00",41.7846316,-88.3293932
+197.0,197,Visual Arts Research Studios,1231 N Fremont Ave,Tucson,AZ,85719,"24,381.00","15,053.00",39.3031573,-76.63667579999999
+199.0,199,Douglass House,1189 E Speedway Blvd,Tucson,AZ,85719,"1,351.75","1,143.00",32.2361739,-110.9542905
+199.01,199A,Smith House,1195 E Speedway Blvd,Tucson,AZ,85719,"2,274.00","1,769.00",32.2361784,-110.9540289
+201.0,201,Arizona Health Sciences Center,1501 N Campbell Ave,Tucson,AZ,85719,"570,258.00","321,874.00",32.240413,-110.9466397
+201.01,201A,Arizona Health Sciences Center Library,1350 N Warren Ave,Tucson,AZ,85719,"86,816.00","58,851.00",32.241355,-110.9467815
+201.02,201B,Steele Children&#39;s Research Center,1501 N Campbell Ave,Tucson,AZ,85719,"49,294.00","32,278.00",32.240413,-110.9466397
+201.05,201E,Sarver Heart Center,1501 N Campbell Ave,Tucson,AZ,85719,"36,400.00","22,202.00",32.240413,-110.9466397
+201.14,201N,AHSC - North,1501 N Campbell Ave,Tucson,AZ,85719,"5,018.00",788.00,32.240413,-110.9466397
+202.0,202,Roy P. Drachman Hall,1295 N Martin Ave,Tucson,AZ,85719,"114,093.00","66,220.00",27.9784789,-82.79180749999999
+203.0,203,Nursing,1305 N Martin Ave,Tucson,AZ,85719,"67,018.00","42,058.00",35.4817316,-97.47707079999999
+205.0,205,AHSC Central Heating And Refrigeration Plant,1515 N Cherry Ave,Tucson,AZ,85719,"36,220.95","1,220.00",41.90882,-87.6554361
+206.0,206,Facilities Management Shops,1515 N Cherry Ave,Tucson,AZ,85719,"11,196.00","9,119.00",41.90882,-87.6554361
+206.01,206A,Facilities Management Plumbing/Paint/Mechanical Shops,1505 N Cherry Ave,Tucson,AZ,85719,"10,313.00","8,653.00",41.9087508,-87.6554353
+206.02,206B,Facilities Management Machine Shop,1505 N Cherry Ave,Tucson,AZ,85719,"1,337.00","1,221.00",41.9087508,-87.6554353
+207.0,207,Skaggs Pharmaceutical Sciences Center,1703 E Mabel St,Tucson,AZ,85719,"101,184.00","66,998.00",32.2416198,-110.9453843
+210.0,210,Facilities Management HR,1518 E Lester St,Tucson,AZ,85719,"1,062.00",801.00,32.243496,-110.9492014
+213.0,213,Lester House,1550 E Lester St,Tucson,AZ,85719,"1,530.00","1,174.00",32.2435027,-110.9486537
+214.0,214,Facilities Management,1502 E Lester St,Tucson,AZ,85719,"1,096.00",995.00,32.2435454,-110.9495692
+216.0,216,Health Sciences Innovation Building,1670 E Drachman,Tucson,AZ,85719,"261,248.66","117,022.00",32.2389289,-110.947351
+221.0,221,Life Sciences North,1333 N Martin Ave,Tucson,AZ,85719,"125,524.00","53,794.00",35.4825074,-97.4767301
+222.0,222,Leon Levy Cancer Center,1515 N Campbell Ave,Tucson,AZ,85719,"85,971.00","46,549.00",32.24104,-110.944877
+222.01,222A,Sydney E. Salmon Building,1515 N Campbell Ave,Tucson,AZ,85719,"102,100.00","54,679.00",32.24104,-110.944877
+228.0,228,UAHS Auxiliary - 1145,1145 N Campbell Ave,Tucson,AZ,85719,"2,586.00","1,523.00",32.2369284,-110.94423
+231.0,231,University of Arizona Health Sciences Garage,1401 N Campbell Ave,Tucson,AZ,85719,"273,340.00","135,061.00",32.240454,-110.946205
+233.0,233,Andrew Weil Center for Integrative Medicine,1502 E Mabel St,Tucson,AZ,85719,"31,743.00","16,714.00",32.2384606,-110.9496669
+240.0,240,Thomas W. Keating Bioresearch Building,1657 E Helen St,Tucson,AZ,85719,"190,691.00","102,450.00",32.2379439,-110.9472625
+241.0,241,Medical Research Building,1656 E Mabel St,Tucson,AZ,85719,"144,988.00","79,408.00",32.2384806,-110.9470092
+242.0,242,Bioscience Research Laboratories,1230 N Cherry Ave,Tucson,AZ,85719,"172,623.07","96,774.00",41.903802,-87.6549692
+290.0,290,Warren Apartments,1633-1639 E 1 St,Tucson,AZ,85719,"3,486.18","3,022.00",,
+300.01,300A,University Services Annex West,220 W 6 St,Tucson,AZ,85701,"71,560.00","39,892.00",30.2725868,-97.7567382
+300.02,300B,University Services Annex East,220 W 6 St,Tucson,AZ,85701,"23,678.00","17,241.00",30.2725868,-97.7567382
+301.0,301,University Library Storage,301 N Cherry Ave,Tucson,AZ,85719,"1,021.00",888.00,41.905113,-87.6553463
+302.0,302,Confluencenter For Creative Inquiry,1133 E Helen St,Tucson,AZ,85719,"1,810.00","1,421.00",32.2376956,-110.9542959
+305.0,305,Rincon Vista Track Field,2355 E Winsett St,Tucson,AZ,85719,&nbsp;,0.00,32.2144762,-110.9365704
+306.0,306,ICA Service Facilities,501 S Plumer Ave,Tucson,AZ,85719,"2,337.00","1,191.00",32.2147963,-110.9391745
+307.0,307,Ground Maintenance,2331 E Winsett St,Tucson,AZ,85719,600.00,558.00,32.2144697,-110.9372919
+308.0,308,Rope Course Facility,2355 E Winsett St,Tucson,AZ,85719,"1,428.00","1,178.00",32.2144762,-110.9365704
+309.0,309,Rope Course Facility,2355 E Winsett St,Tucson,AZ,85719,325.00,109.00,32.2144762,-110.9365704
+310.0,310,Murphey Field House,2300 E 15 St,Tucson,AZ,85719,"1,857.00","1,297.00",40.7321805,-73.9824103
+311.0,311,ICA Timer Building,2217 E Winsett St,Tucson,AZ,85719,247.00,127.00,32.2142842,-110.939004
+312.0,312,Residence Life Facilities,411 S Plumer Ave,Tucson,AZ,85719,"12,496.76","7,234.00",32.2171174,-110.9389409
+314.0,314,Rincon Vista Annex,450 S Tucson Blvd,Tucson,AZ,85716,"22,095.00","16,641.00",32.216478,-110.9357248
+314.01,314A,Rincon Vista Storage A,450 S Tucson Blvd,Tucson,AZ,85716,"2,615.00","2,489.00",32.216478,-110.9357248
+314.02,314B,Rincon Vista Storage B,450 S Tucson Blvd,Tucson,AZ,85716,"1,128.00","1,067.00",32.216478,-110.9357248
+323.0,323,TBA - 1510-1512,1510-1512 E 7 St,Tucson,AZ,85719,"1,621.00","1,378.00",,
+324.0,324,TBA - 1423,1423 E 8th St,Tucson,AZ,85719,"2,031.00","1,355.00",39.1039015,-94.56466960000002
+329.0,329,1070 N Warren Ave - Leased Out,1070 N Warren Ave,Tucson,AZ,85719,665.00,585.00,32.2355765,-110.946618
+329.01,329A,1072 N Warren Ave - Leased Out,1072 N Warren Ave,Tucson,AZ,85719,435.00,394.00,32.23557700000001,-110.946618
+332.0,332,Arizona Historical Society,949 E 2 St,Tucson,AZ,85719,"2,061.00","1,365.00",,
+335.0,335,Hi Corbett Field,3400 E Camino Campestre Stra,Tucson,AZ,85711,"12,312.00","9,655.00",32.2131046,-110.9200602
+335.01,335A,Hi Corbett Field Ticket Office-Press Box,3400 E Camino Campestre Stra,Tucson,AZ,85711,"6,771.94","4,489.00",32.2131046,-110.9200602
+335.02,335B,Hi Corbett Field Clubhouse,3400 E Camino Campestre Stra,Tucson,AZ,85711,"7,321.00","6,188.00",32.2131046,-110.9200602
+335.03,335C,Hi Corbett Field Coaches Offices,3400 E Camino Campestre Stra,Tucson,AZ,85711,"4,899.05","2,528.00",32.2131046,-110.9200602
+335.04,335D,Hi Corbett Field Restrooms,3400 E Camino Campestre Stra,Tucson,AZ,85711,"2,006.72",0.00,32.2131046,-110.9200602
+335.05,335E,Hi Corbett Field Concessions,3400 E Camino Campestre Stra,Tucson,AZ,85711,"1,510.82","1,335.00",32.2131046,-110.9200602
+335.06,335F,Hi Corbett Field Restroom-Concessions,3400 E Camino Campestre Stra,Tucson,AZ,85711,"3,047.67",694.00,32.2131046,-110.9200602
+335.07,335G,Terry Francona Hitting Facility,"3400 E Camino Campestre Stra, 85711",Tucson,AZ,85711,"9,458.33","9,196.00",32.2131046,-110.9200602
+336.0,336,Roy Place Building,44 N Stone Ave,Tucson,AZ,85701,"22,713.12","17,059.00",32.2226996,-110.9711167
+339.0,339,Tumamoc Annex,1601 W Anklam,Tucson,AZ,85745,"3,059.31","1,167.00",32.2254273,-110.9993487
+339.01,339A,Tumamoc Annex Garage A,1601 W Anklam,Tucson,AZ,85745,"1,280.68",966.00,32.2254273,-110.9993487
+339.02,339B,Tumamoc Annex Garage B,1601 W Anklam,Tucson,AZ,85745,756.00,584.00,32.2254273,-110.9993487
+341.0,341,Pima County Abrams Building,3950 S Country Club,Tucson,AZ,85714,"20,760.00","14,284.00",32.1759407,-110.9278673
+342.0,342,Storage,1109 E 7 St,Tucson,AZ,85721,"1,409.74",815.00,,
+342.01,342A,Storage,1109 E 7 St,Tucson,AZ,85721,616.00,272.00,,
+343.0,343,Storage,1109 E 7 St,Tucson,AZ,85721,"1,052.00",844.00,,
+343.01,343A,Storage,1109 E 7 St,Tucson,AZ,85721,444.00,389.00,,
+346.0,346,TBA - 1601,"1601 N Tucson Blvd, #3",Tucson,AZ,85716,"1,071.24",689.00,,
+350.0,350,The Park - COM Pediatrics,"4455 E Camelback Rd, #E125",Phoenix,AZ,85018,"2,718.00","2,211.00",,
+351.0,351,CALS Pima County Cooperative Extension,530 E Whitehouse Canyon,Green Valley,AZ,85614,979.00,832.00,31.850964,-110.9746005
+354.0,354,University of Arizona - Nogales,2021 N Grand Ave,Nogales,AZ,85621,"2,497.00","2,171.00",34.0513136,-117.8617339
+358.0,358,TBA - 330,330 N Vine Ave,Tucson,AZ,85719,"1,803.71","1,342.00",32.2258262,-110.9492617
+362.0,362,TBA - 350,350 N Highland Ave,Tucson,AZ,85719,"1,391.09","1,058.00",41.7649146,-88.3296032
+366.0,366,College of Law - Court Rooms,240 N Stone,Tucson,AZ,85701,"3,026.00","2,663.00",32.2254802,-110.971224
+370.0,370,Paul and Alice Baker Distribution Center,3740 E 34th Street,Tucson,AZ,85713-5305,"288,558.56","274,685.00",40.7458311,-73.9783554
+371.0,371,TBA - 1324,1324 N Vine Ave,Tucson,AZ,85719,"1,105.00",945.00,32.2392013,-110.9495343
+374.0,374,2141,2141 E 3rd St,Tucson,AZ,85719,"4,979.00","4,232.00",34.1067657,-117.2403111
+375.0,375,Bear Canyon - Main House,3591 N Bear Canyon Rd,Tucson,AZ,85749,"5,766.50","4,321.00",32.2772287,-110.8062767
+375.01,375A,Bear Canyon - Guest House,3591 N Bear Canyon Rd,Tucson,AZ,85749,932.08,779.00,32.2772287,-110.8062767
+375.02,375B,Bear Canyon - Event House,3591 N Bear Canyon Rd,Tucson,AZ,857549,"4,372.35","2,735.00",32.2772287,-110.8062767
+378.0,378,TBA - 1518,1518 E 7th St,Tucson,AZ,85719,"2,019.00","1,716.00",34.0343562,-118.2382348
+379.0,379,TBA - 1554,1554 E 7th St,Tucson,AZ,85719,"2,518.42","2,012.00",30.2641225,-97.726575
+380.0,380,TBA - 1548,1548 E 7th St,Tucson,AZ,85719,"1,929.77","1,738.00",30.2641443,-97.7266341
+381.0,381,Alfie Norville Gem &amp; Mineral Museum,115 N Church Ave,Tucson,AZ,85701,"36,913.00","18,235.00",32.2234437,-110.9731568
+382.0,382,TBA - 325,325 N Cherry Ave,Tucson,AZ,85719,"1,620.00","1,377.00",41.905113,-87.6553463
+382.01,382A,TBA - 323,323 N Cherry Ave,Tucson,AZ,85719,800.00,680.00,41.905113,-87.6553463
+382.02,382B,TBA - 321,321 N Cherry Ave,Tucson,AZ,85719,800.00,680.00,41.905113,-87.6553463
+382.03,382C,TBA - 319,319 N Cherry Ave,Tucson,AZ,85719,800.00,680.00,41.905113,-87.6553463
+406.01,406A,1601 N Tucson 23,"1601 N Tucson Blvd, #23",Tucson,AZ,85716,"1,650.00","1,095.00",,
+406.02,406B,Human Energy Systems Laboratory,"1601 N Tucson Blvd, #16",Tucson,AZ,85716,"1,110.00",751.00,,
+406.03,406C,Human Energy Systems Laboratory,"1601 N Tucson Blvd, #17",Tucson,AZ,85716,"1,924.00","1,379.00",,
+406.05,406E,1601 N Tucson 23A,"1601 N Tucson Blvd, #23A",Tucson,AZ,85716,750.00,482.00,,
+406.06,406F,College of Medicine Continuing Education,"1601 N Tucson Blvd, #4",Tucson,AZ,85716,"1,334.84","1,079.00",,
+407.0,407,1601 N Tucson 32,"1601 N Tucson Blvd, #32",Tucson,AZ,85716,"1,387.00",892.00,,
+408.0,408,Wassaja Carlos Montezuma Center for Native American Health,1642 E Helen St,Tucson,AZ,85719,"2,625.00","2,167.00",32.2370938,-110.9471532
+408.01,408A,Enrollment Management Systems and Communication,1628 E Helen St,Tucson,AZ,85719,"1,618.00","1,379.00",32.2371482,-110.9474207
+409.0,409,Research Development,1618 E Helen St,Tucson,AZ,85719,"5,260.00","3,660.00",32.2371143,-110.947778
+409.01,409A,Student Affairs Systems Group,1618 E Helen St,Tucson,AZ,85719,"6,415.00","5,079.00",32.2371143,-110.947778
+412.0,412,UA Visitor Center,811 N Euclid Ave,Tucson,AZ,85719,"7,688.00","3,701.00",34.0728938,-117.6516385
+413.0,413,Santa Rita House,1219 N Santa Rita Ave,Tucson,AZ,85719,"1,860.00","1,483.00",32.2378179,-110.9540177
+414.02,414B,TBA - 1228,1228 N Santa Rita Ave,Tucson,AZ,85719,"1,334.00","1,142.00",32.2380862,-110.9535645
+415.0,415,TBA - 1115,1115 E Helen St,Tucson,AZ,85719,"2,765.00","3,044.00",32.2376369,-110.9547699
+418.0,418,Mabel Storage,1132 E Mabel St,Tucson,AZ,85719,"1,587.00","1,153.00",32.2383958,-110.9542936
+420.0,420,Esquire Apartments,1230 N Park Ave,Tucson,AZ,85719,"24,089.00","18,527.00",32.2377139,-110.9565294
+421.01,421A,Row House 1715,1715 E 7 St,Tucson,AZ,85719,"1,522.00","1,252.00",,
+421.02,421B,Row House 1721,1721 E 7 St,Tucson,AZ,85719,"1,201.00","1,008.00",,
+421.03,421C,Row House 1729,1729 E 7th St,Tucson,AZ,85719,"1,054.00",892.00,30.26265679999999,-97.7230378
+421.04,421D,Row House 1733,1733 E 7th St,Tucson,AZ,85719,"1,170.00","1,015.00",30.2626543,-97.7230304
+422.01,422A,Storage,1115 E 7 St,Tucson,AZ,85719,"1,104.00","1,021.00",,
+424.01,424A,SLHS Clinic,202 E Speedway Blvd,Tucson,AZ,85719,"4,095.00","2,969.00",32.2352686,-110.968381
+425.0,425,AZ Area Health Education Center,1834 E Mabel St,Tucson,AZ,85719,"2,496.00","1,975.00",32.2384237,-110.9443652
+428.0,428,Law Annex III – Undergraduates &amp; Masters of Legal Studies Programs,1215 E Helen St,Tucson,AZ,85719,"2,467.00","1,624.00",32.2375324,-110.953289
+429.0,429,France-Arizona Institute for Global Grand Challenges,1221 E Helen St,Tucson,AZ,85719,"1,193.00",922.00,32.2376112,-110.9531169
+429.01,429A,UA Bookstores-Tucson Festival of Books,1201 E Helen St,Tucson,AZ,85719,"1,150.00",786.00,32.2376644,-110.9535932
+432.0,432,Geronimo Center A,800 E University Blvd,Tucson,AZ,85719,"15,320.00","9,848.00",32.2314017,-110.9592673
+437.0,437,Water Resources Research Center,350 N Campbell Ave,Tucson,AZ,85719,"8,221.00","5,475.00",32.2263583,-110.9433235
+438.0,438,Gender and Women&#39;s Studies,925 N Tyndall Ave,Tucson,AZ,85719,"16,291.00","11,548.00",32.233553,-110.9583449
+440.0,440,Cancer Center GTS,"1430 E Ft Lowell Rd, Ste 304",Tucson,AZ,85719,"4,377.00","3,472.00",32.2643037,-110.9501027
+441.0,441,Human Animal Interaction House,915 N Tyndall Ave,Tucson,AZ,85719,"2,875.00","2,171.00",32.2333856,-110.9582744
+443.0,443,Teach Arizona,1556 W Prince Rd,Tucson,AZ,85705,"1,540.00","1,540.00",32.2731342,-110.9985334
+444.0,444,Education North,1501 E Speedway Blvd,Tucson,AZ,85719,"11,301.09","7,347.00",32.2364601,-110.9494078
+446.0,446,Visual Development Lab,2600 N Wyatt Dr,Tucson,AZ,85712,"1,040.00",784.00,32.2543629,-110.8812693
+451.0,451,Arizona Mining &amp; Mineral Museum,1502 W Washington St,Phoenix,AZ,85007,"32,000.00","28,000.00",39.7674748,-86.1869961
+454.0,454,TBA - 407,407 N Mountain Ave,Tucson,AZ,85719,760.00,581.00,34.0674357,-117.6700865
+454.01,454A,TBA - 415,415 N Mountain Ave,Tucson,AZ,85719,646.00,468.00,34.0976147,-117.7294076
+455.0,455,Office of General Education,1240 E Mabel St,Tucson,AZ,85719,"1,646.00","1,035.00",32.2383954,-110.9531225
+455.01,455A,Office of General Education,1240 E Mabel St,Tucson,AZ,85719,"2,589.20","1,677.00",32.2383954,-110.9531225
+456.0,456,Faculty Center,1216 E Mabel St,Tucson,AZ,85719,"1,515.00","1,098.00",32.2384086,-110.953322
+457.0,457,Physiology,1527 E Mabel St,Tucson,AZ,85719,"1,731.00","1,199.00",32.2388905,-110.9489381
+459.0,459,Gilbert University Center,92 W Vaughn,Gilbert,AZ,85233,"41,229.00","25,692.00",,
+463.0,463,COM - Residence of Medical Student Education,700 Cypress Court,Tuba City,AZ,86045,"2,759.00","2,345.00",41.0753559,-74.1374807
+466.0,466,TBA - 1244,1244 N Fremont Ave,Tucson,AZ,85719,"1,553.00","1,260.00",39.3031304,-76.6374319
+470.0,470,Facilities Management Renovation Services,1200 N Mountain Ave,Tucson,AZ,85719,"4,364.00","1,576.00",34.0796804,-117.6701399
+471.0,471,ARL Annex,1237 N Mountain Ave,Tucson,AZ,85719,889.00,648.00,34.1098575,-117.6703261
+471.01,471A,Law Annex II - Programs,1203 N Mountain Ave,Tucson,AZ,85719,"1,505.00","1,160.00",34.1061083,-117.7295829
+471.02,471B,WEST Environmental Justice Center,1249 N Mountain Ave,Tucson,AZ,85719,"2,376.00","1,933.00",34.0805648,-117.6701452
+472.0,472,1533 E Mabel ,1533 E Mabel St,Tucson,AZ,85719,"1,212.00",914.00,32.2388704,-110.9487941
+474.0,474,TBA - 310,310 N Vine Ave,Tucson,AZ,85719,882.00,750.00,36.3121126,-96.4602702
+476.0,476,Graduate Interdisciplinary Programs North,1548 E Drachman St,Tucson,AZ,85719,"1,539.00","1,229.00",32.2394058,-110.9486236
+479.0,479,COPH-Drachman House,1540 E Drachman St,Tucson,AZ,85719,"2,398.00","1,720.00",32.23938,-110.9487839
+480.0,480,Broadway Administrative Offices,1700 E Broadway,Tucson,AZ,85719,"14,062.94","5,655.00",34.1461706,-118.2289681
+483.01,483A,Udall Center For Studies In Public Policy,803 E 1 St,Tucson,AZ,85719,"2,031.00","1,431.00",,
+483.02,483B,Udall Center For Studies In Public Policy,811 E 1 St,Tucson,AZ,85719,"2,031.00","1,426.00",,
+483.03,483C,Academic Administration West,819 E 1 St,Tucson,AZ,85719,"3,316.00","2,111.00",,
+483.04,483D,Udall Center For Studies In Public Policy,1018 - 1020 N Euclid Ave,Tucson,AZ,85719,"1,188.00",886.00,34.1073094,-117.6506969
+485.0,485,SIROW,1037 E 34th Street,Tucson,AZ,85713,"1,781.00","1,781.00",40.7458311,-73.9783554
+487.0,487,SIROW lease,3776 N 1 Ave,Tucson,AZ,85719,"1,364.00","1,364.00",31.3569504,-109.5576017
+488.0,488,University of Arizona - Yuma Academic Center,7875 E 24th St,Yuma,AZ,85365,"4,591.00","3,863.00",40.7394992,-73.9826599
+490.0,490,Arizona Materials Laboratory,4715 E Ft Lowell Rd,Tucson,AZ,85712,"18,567.00","12,338.00",32.2619881,-110.8916583
+490.01,490A,Arizona Materials Laboratory,4717 E Ft Lowell Rd,Tucson,AZ,85712,"26,351.00","18,777.00",32.2622655,-110.8901354
+491.0,491,Alvernon Admin Offices,655 N Alvernon Way,Tucson,AZ,85711,"61,927.00","34,597.00",32.2301959,-110.9100088
+492.0,492,CT Medical Imaging - Lease,4291 N Campbell Ave,Tucson,AZ,85719,395.00,395.00,32.2844877,-110.9452788
+493.0,493,Facilities Management Electric Shop,1235 N Mountain Ave,Tucson,AZ,85719,"4,179.54","2,046.00",34.1098356,-117.6703259
+494.0,494,COPH - Western Regional Public Health Training Center,1241 N Mountain Ave,Tucson,AZ,85719,"1,913.00","1,320.00",34.1099013,-117.6703266
+498.0,498,U Of A Motor Pool Garage,1597 E 16 St,Tucson,AZ,85719,"5,828.00","4,750.00",,
+498.01,498A,U Of A Motor Pool Office Building,1597 E 16 St,Tucson,AZ,85719,989.00,930.00,,
+500.0,500,Michael J. Drake Building,1415 N 6 Ave,Tucson,AZ,85705,"49,123.00","42,118.00",-30.2074578,26.5332015
+502.0,502,Health Promotion And Wellness Center,1030 N Alvernon Way,Tucson,AZ,85711,"9,246.00","6,473.00",32.235073,-110.9092721
+506.0,506,Oro Valley Veterinary Medicine Facility,1580 E Hanley Blvd,Oro Valley,AZ,85737,"30,139.06","21,158.00",32.4029772,-110.9491776
+509.0,509,TBA - 1208,1208 E Mabel St,Tucson,AZ,85721,"1,062.90",823.00,32.2384033,-110.953479
+512.0,512,TBA - 1200,1200 E Mabel St,Tucson,AZ,85719,"1,190.14",962.00,32.2384,-110.9536207
+513.0,513,Facilities Management Elevator Shop,1128 E Mabel St,Tucson,AZ,85719,"1,250.00","1,039.00",32.2383735,-110.9544814
+514.0,514,Pima County Cooperative Extension Teaching Kitchen and Garden,2205 S 4 Ave,Tucson,AZ,85713,"2,108.78","1,457.00",,
+515.0,515,YCEDA - Yuma,"899 E Plaza Circle, Ste 2",Yuma,AZ,85365,"3,565.00","2,344.00",32.7042833,-114.611032
+520.0,520,TBA - 1504,1504  E 7 St,Tucson,AZ,85719,964.00,726.00,,
+528.0,528,SBS Tyndall Annex,935 N Tyndall Ave,Tucson,AZ,85719,"1,151.00",894.00,32.2338334,-110.9582595
+529.0,529,Global Initiatives,939 N Tyndall Ave,Tucson,AZ,85719,"1,122.00",815.00,32.2339623,-110.9582311
+530.0,530,Udall Center Annex And Library,943 N Tyndall Ave,Tucson,AZ,85719,"1,151.00",900.00,32.2340689,-110.9582203
+535.0,535,"CALS Pinal Cooperative Extension - Parker, AZ",1012-1020 Hopi Ave,Parker,AZ,85344,150.00,150.00,33.3758898,-110.773008
+537.0,537,Mt Lemmon Skycenter,8892 E Tanque Verde Rd,Tucson,AZ,85749,"2,240.00","2,096.00",32.257444,-110.8028821
+539.0,539,All of Us Program - Phoenix,1441 N 12th St,Phoenix,AZ,85006,"3,900.00","3,900.00",33.4644633,-112.0555023
+540.0,540,Facilities Management - Masonry,1501 E Mabel St,Tucson,AZ,85719,"2,722.00","2,314.00",32.238917,-110.949574
+543.0,543,OV Vet Med - Stallard Pl,10900 N Stallard Pl,Oro Valley,AZ,85737,"38,002.00","29,777.00",32.4042241,-110.9469846
+544.0,544,Steward Observatory,4051 S Longfellow Ave,Tucson,AZ,85714,"8,100.00","7,695.00",32.1752966,-110.9055864
+546.0,546,TBA - Phoenix,706 N 7th St,Phoenix,AZ,85006,"2,614.00","2,222.00",33.4558336,-112.065452
+548.0,548,William M &quot;Bill&quot; Clements Golf Center,2858 N Camino Principal,Tucson,AZ,85715,"10,138.00","7,567.00",32.2589225,-110.8503628
+552.0,552,Tri Delta - Lease,1541 E 2 St,Tucson,AZ,85719,"14,346.00","14,346.00",,
+553.0,553,Housing &amp; Residential Life - Storage,2110 E 14 St,Tucson,AZ,85719,"7,000.00","7,000.00",37.7191978,-122.1480234
+571.0,571,Law Annex,1201 N Santa Rita Ave,Tucson,AZ,85719,"2,321.00","1,588.00",32.2375291,-110.9541011
+572.0,572,Arthritis Center Annex,1333 N Cherry Ave,Tucson,AZ,85719,"1,703.00","1,382.00",41.90550959999999,-87.6554329
+573.0,573,Facilities Management Custodial,1526 E Lester St,Tucson,AZ,85719,"1,272.00","1,022.00",32.243492,-110.9490175
+605.0,605,Indian Ruins Guest House,2799 N Indian Ruins Rd,Tucson,AZ,85715,551.00,482.00,32.2575277,-110.8489385
+606.0,606,Indian Ruins Lab,2799 N Indian Ruins Rd,Tucson,AZ,85715,658.00,580.00,32.2575277,-110.8489385
+607.0,607,Indian Ruins Main House,2799 N Indian Ruins Rd,Tucson,AZ,85715,"1,188.00","1,047.00",32.2575277,-110.8489385
+801.0,801,Tumamoc Hill - Main Library,1675 W Anklam Rd,Tucson,AZ,85745,"4,420.00","3,492.00",32.2189304,-111.0040187
+802.0,802,Tumamoc Hill - Old Chemistry,1675 W Anklam Rd,Tucson,AZ,85745,"1,363.00",998.00,32.2189304,-111.0040187
+803.0,803,Tumamoc Hill - USGS,1675 W Anklam Rd,Tucson,AZ,85745,"1,624.00","1,309.00",32.2189304,-111.0040187
+804.0,804,Tumamoc Hill - Sykes Lab,1675 W Anklam Rd,Tucson,AZ,85745,"3,122.00","2,942.00",32.2189304,-111.0040187
+805.0,805,Tumamoc Hill - Sykes Lab Annex,1675 W Anklam Rd,Tucson,AZ,85745,980.00,912.00,32.2189304,-111.0040187
+808.0,808,Tumamoc Hill - Storage Shed C,1675 W Anklam Rd,Tucson,AZ,85745,100.00,90.00,32.2189304,-111.0040187
+810.0,810,Tumamoc Hill - Inactive,1675 W Anklam Rd,Tucson,AZ,85745,192.00,134.00,32.2189304,-111.0040187
+811.0,811,Tumamoc Hill - Boathouse,1675 W Anklam Rd,Tucson,AZ,85745,800.00,680.00,32.2189304,-111.0040187
+812.0,812,Tumamoc Hill - Boathouse Annex,1675 W Anklam Rd,Tucson,AZ,85745,144.00,112.00,32.2189304,-111.0040187
+813.0,813,Tumamoc Hill - Residence,1651 W Anklam Rd,Tucson,AZ,85745,"1,338.29",730.00,32.225101,-111.0006097
+815.0,815,Tumamoc Hill - 1600 Caretaker Residence,1600 W Tucson Terrace,Tucson,AZ,85745,612.00,517.00,32.2250246,-110.9990491
+851.0,851,Tumamoc Hill - 14&quot; Telescope,1675 W Anklam Rd,Tucson,AZ,85745,196.00,176.00,32.2189304,-111.0040187
+852.0,852,Tumamoc Hill - 21&quot; Telescope,1675 W Anklam Rd,Tucson,AZ,85745,322.00,292.00,32.2189304,-111.0040187
+854.0,854,KUAT Transmitting Station,Tumamoc Hill,Tucson,AZ,85745,824.00,753.00,32.2254619,-111.0016214
+855.0,855,"Tumamoc Hill - CARBA, KGUN",1675 W Anklam Rd,Tucson,AZ,85745,438.00,374.00,32.2189304,-111.0040187
+901.0,901,Kitt Peak Observatory - 36 Inch,South State Highway 386,Sells,AZ,85735,"3,410.00","2,900.00",43.1169449,-77.7456485
+902.0,902,Kitt Peak Observatory,South State Highway 386,Sells,AZ,85735,"2,788.00","2,289.00",43.1169449,-77.7456485
+903.0,903,Kitt Peak Observatory - 90 Inch,South State Highway 386,Sells,AZ,85735,"7,159.00","6,331.00",43.1169449,-77.7456485
+904.0,904,Kitt Peak Observatory,South State Highway 386,Sells,AZ,85735,254.00,203.00,43.1169449,-77.7456485
+905.0,905,Kitt Peak Observatory,South State Highway 386,Sells,AZ,85735,754.00,673.00,43.1169449,-77.7456485
+907.0,907,Kitt Peak Observatory,South State Highway 386,Sells,AZ,85735,108.00,96.00,43.1169449,-77.7456485
+908.0,908,Kitt Peak Maintenance Supervisor Residence,South State Highway 386,Sells,AZ,85735,864.00,786.00,43.1169449,-77.7456485
+909.0,909,Kitt Peak Dorm,South State Highway 386,Sells,AZ,85735,"1,344.00","1,174.00",43.1169449,-77.7456485
+910.0,910,Spacewatch Telescope - 72 Inch,South State Highway 386,Sells,AZ,85735,"1,675.00","1,009.00",43.1169449,-77.7456485
+911.0,911,Kitt Peak 12M Radio Telescope,South State Highway 386,Sells,AZ,85735,"7,088.00","6,528.00",43.1169449,-77.7456485
+912.0,912,Kitt Peak Radio Telescope Dormitory,South State Highway 386,Sells,AZ,85735,"1,414.00","1,230.00",43.1169449,-77.7456485
+913.0,913,Kitt Peak Radio Telescope Recreation Building,South State Highway 386,Sells,AZ,85735,569.00,505.00,43.1169449,-77.7456485
+914.0,914,Kitt Peak Radio Telescope Electronics Bldg,South State Highway 386,Sells,AZ,85735,"2,456.00","2,085.00",43.1169449,-77.7456485
+915.0,915,Kitt Peak Radio Telescope Operator Residence,South State Highway 386,Sells,AZ,85735,710.00,631.00,43.1169449,-77.7456485
+1011.0,1011,UA Sierra Vista Campus,1140 N Colombo Ave,Sierra Vista,AZ,85635,"13,164.00","9,694.00",31.5668068,-110.2457598
+1013.0,1013,UA Sierra Vista - Academic Technology Building,1140 N Columbo Ave,Sierra Vista,AZ,85635,"23,388.00","14,875.00",31.5668068,-110.2457598
+1014.0,1014,UA Sierra Vista - Foreign Language Building,1140 N Colombo Ave,Sierra Vista,AZ,85635,"3,832.00","2,752.00",31.5668068,-110.2457598
+1015.0,1015,UA Sierra Vista - Arizona Folklore Facility,56 E Folklore Trail,Hereford,AZ,85615,"4,000.00","3,400.00",31.4503186,-110.3046251
+1015.01,1015A,UA Sierra Vista - Moffett House,60 E Folklore Trail,Hereford,AZ,85615,861.00,732.00,31.4502618,-110.3043048
+1021.0,1021,Cochise College - Douglas,4190 W Hwy 80,Douglas,AZ,85607,"2,601.00","2,399.00",32.2344341,-101.5180822
+1025.0,1025,UA Sierra Vista - Sofia Building,500 N Garden Ave,Sierra Vista,AZ,85635,"24,311.00","21,880.00",35.7238649,-79.4729117
+1050.0,1050,San Xavier Mine,6200 W Ocotillo Ranch Rd,Sahuarita,AZ,85629,"1,253.00","1,166.00",,
+1051.0,1051,San Xavier Mine Classroom Building,6200 W Ocotillo Ranch Rd,Tucson,AZ,85629,"4,801.00","4,325.00",,
+1052.0,1052,San Xavier Mine - Garage,6200 W Ocotillo Ranch Rd,Sahuarita,AZ,85629,"1,800.00","1,800.00",,
+11001.0,11001,Pima Community College- West Campus,2202 W Anklam Rd,Tucson,AZ,85745,&nbsp;,0.00,32.2275173,-111.0166529
+11002.0,11002,Flowing Wells High School,3725 N Flowing Wells Rd,Tucson,AZ,85705,&nbsp;,0.00,32.2749368,-110.9960261
+11003.0,11003,Pima Community College- Downtown Campus,1255 N Stone Ave,Tucson,AZ,85709,&nbsp;,0.00,32.2367515,-110.9728308
+11004.0,11004,Pima Community College - Desert Vista Campus,5901 S Calle Santa Cruz,Tucson,AZ,85709,&nbsp;,0.00,32.1460176,-110.9900832
+11005.0,11005,Pima Community College - East Campus,8181 E Irvington Rd,Tucson,AZ,85709,&nbsp;,0.00,32.1653428,-110.8170975
+11006.0,11006,Hillel Building,1245 E 2nd St,Tucson,AZ,85719,&nbsp;,0.00,34.0469851,-118.2262558
+11007.0,11007,Arizona Western College - Yuma,2020 S Ave 8 E,Yuma,AZ,85365,&nbsp;,0.00,32.6892968,-114.4960487
+11008.0,11008,Fort Huachuca,52104 La Guardia,Ft Huachuca,AZ,85613,&nbsp;,0.00,41.9074666,-8.8652259
+11009.0,11009,Science and Tech Park,9040 S Rita Rd,Tucson,AZ,85747,&nbsp;,0.00,32.0919287,-110.8089283
+1101.0,1101,Catalina Observatory Site 1 - 30 Inch Schmidt Telescope,12201 E Mount Bigelow Rd,Mount Lemmon,AZ,85619,854.00,617.00,32.416783,-110.732527
+11010.0,11010,Central Arizona College-Signal Peak,&nbsp;,&nbsp;,AZ,&nbsp;,&nbsp;,0.00,,
+11011.0,11011,Rehabilitation Service Administration,4710 E. 29th,Tucson,AZ,&nbsp;,&nbsp;,0.00,30.64066039999999,-96.32882289999999
+11012.0,11012,Paradise Valley Community College,18401 N 32 St,Phoenix,AZ,85032,&nbsp;,0.00,33.651284,-112.0109173
+11013.0,11013,Little Chapel of All Nations,&nbsp;,&nbsp;,AZ,&nbsp;,&nbsp;,0.00,,
+11014.0,&nbsp;,Cochise College - Sierra Vista,901 N Colombo Ave,Sierra Vista,AZ,85635,&nbsp;,0.00,31.5634802,-110.2474321
+11015.0,11015,Arizona Western-College San Luis Technology Institute,1135 N Main St,San Luis,AZ,85349,&nbsp;,0.00,33.6729228,-117.325747
+11016.0,11016,Dunbar Cultural Center,325 W 2 St,Tucson,AZ,85705,&nbsp;,0.00,,
+11018.0,11018,Los Ninos Elementary School,5445 S Alvernon Way,Tucson,AZ,85706,&nbsp;,0.00,32.1531951,-110.9081927
+1102.0,1102,Catalina Observatory Site 1 - 61 Inch Telescope,12201 E Mount Bigelow Rd,Mount Lemmon,AZ,85619,"3,927.00","2,674.00",32.416783,-110.732527
+11020.0,11020,Buena High School Alternative Learning Center - SVUSD,5224 Buena School Blvd,Sierra Vista,AZ,85635,&nbsp;,0.00,31.5692904,-110.2378121
+11021.0,11021,Calabasas School - SCVUSD,131 Camino Maricopa,Rio Rico,AZ,85648,&nbsp;,0.00,31.43821609999999,-110.9691518
+1103.0,1103,Catalina Observatory Site 1 - Dormitory,12201 E Mount Bigelow Rd,Mount Lemmon,AZ,85619,"2,422.00","1,745.00",32.416783,-110.732527
+1104.0,1104,Catalina Observatory Site 1 - Garage/Storage,12201 E Mount Bigelow Rd,Mount Lemmon,AZ,85619,487.00,441.00,32.416783,-110.732527
+1105.0,1105,Catalina Observatory Site 1 - Power House,12201 E Mount Bigelow Rd,Mount Lemmon,AZ,85619,105.00,105.00,32.416783,-110.732527
+1200.0,1200,KUAT Radio-TV Transmitter,Mt Bigelow,Mount Lemmon,AZ,85619,"1,150.00","1,021.00",32.4150754,-110.7145364
+1201.0,1201,KUAT Radio-TV Transmitter,Mt Bigelow,Mount Lemmon,AZ,85619,838.00,744.00,32.4150754,-110.7145364
+1350.0,1350,High Altitude Laboratory,Mt Lemmon,Mount Lemmon,AZ,85619,"2,427.00","2,311.00",32.4434174,-110.7881222
+1401.0,1401,Mt Lemmon Observatories - 60 Inch Telescope,9800 E Ski Run RD,Mount Lemmon,AZ,85619,"1,018.00",916.00,32.4409847,-110.7888777
+1402.0,1402,Mt Lemmon Observatories - 12 Foot Observatory,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,123.00,111.00,32.4409847,-110.7888777
+1403.0,1403,Mt Lemmon Observatories - 40 Inch Telescope,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,314.00,283.00,32.4409847,-110.7888777
+1404.0,1404,Mt Lemmon Observatories - 32 Inch Telescope,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,707.00,636.00,32.4409847,-110.7888777
+1405.0,1405,Mt Lemmon Observatories - Dwelling,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,"1,330.00","1,064.00",32.4409847,-110.7888777
+1406.0,1406,Mt Lemmon Observatories - Power House,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,"3,520.00","2,816.00",32.4409847,-110.7888777
+1407.0,1407,Mt Lemmon Observatories - Garage,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,"2,368.00","2,131.00",32.4409847,-110.7888777
+1408.0,1408,Mt Lemmon Observatories - Fire Pumphouse,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,120.00,108.00,32.4409847,-110.7888777
+1409.0,1409,Mt Lemmon Observatories - Water Pumphouse,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,120.00,108.00,32.4409847,-110.7888777
+1410.0,1410,Mt Lemmon Observatories - Dormitory #1,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,"2,800.00","2,380.00",32.4409847,-110.7888777
+1411.0,1411,Mt Lemmon Observatories - Dormitory #2,9800 E Ski Run RD,Mount Lemmon,AZ,85619,"2,800.00","2,380.00",32.4409847,-110.7888777
+1411.01,1411A,Mt Lemmon Observatories - Learning Center,9800 E Ski Run RD,Mount Lemmon,AZ,85619,"2,755.00","2,380.00",32.4409847,-110.7888777
+1412.0,1412,Mt Lemmon Observatories - 60 Inch Telescope Control,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,"5,586.00","4,748.00",32.4409847,-110.7888777
+1413.0,1413,Mt Lemmon Observatories - Refuse Transfer,9800 E Ski Run RD ,Mount Lemmon,AZ,85619,800.00,680.00,32.4409847,-110.7888777
+1415.0,1415,Mt Lemmon Observatories - Radar Tower,9800 E Ski Run RD,Mount Lemmon,AZ,85619,"3,180.00","2,699.00",32.4409847,-110.7888777
+1416.0,1416,Mt Lemmon Observatories - 24 Inch Telescope,9800 E Ski Run RD,Mount Lemmon,AZ,85619,254.00,254.00,32.4409847,-110.7888777
+2001.0,2001,Campus Farm West - Maintenance HQ,4101 N Campbell Ave,Tucson,AZ,85719,"3,885.00","3,707.00",32.281796,-110.9452961
+2004.0,2004,Campus Farm West - Pavilion and Archives,4101 N Campbell Ave,Tucson,AZ,85719,"1,583.00",621.00,32.281796,-110.9452961
+2005.0,2005,Campus Farm West,4101 N Campbell Ave,Tucson,AZ,85719,"3,669.00","2,866.00",32.281796,-110.9452961
+2006.0,2006,Campus Farm West - SNR Complex,4101 N Campbell Ave,Tucson,AZ,85719,"2,170.00","1,856.00",32.281796,-110.9452961
+2007.0,2007,College of Veterinary Medicine Equine Clinical Training Facility,4101 N Campbell Ave,Tucson,AZ,85719,"11,664.00","8,883.00",32.281796,-110.9452961
+2008.0,2008,Campus Farm West - Ag Education Center,4101 N Campbell Ave,Tucson,AZ,85719,"4,672.00","4,356.00",32.281796,-110.9452961
+2010.0,2010,Campus Farm West - Irrigation Lab,4101 N Campbell Ave,Tucson,AZ,85719,"2,041.00","2,027.00",32.281796,-110.9452961
+2011.0,2011,Campus Farm West - Animal Pathology,4101 N Campbell Ave,Tucson,AZ,85719,672.00,589.00,32.281796,-110.9452961
+2012.0,2012,Campus Farm West - Animal Pathology,4101 N Campbell Ave,Tucson,AZ,85719,"2,599.00","2,476.00",32.281796,-110.9452961
+2013.0,2013,Campus Farm West - Storage,4101 N Campbell Ave,Tucson,AZ,85719,"1,149.00","1,113.00",32.281796,-110.9452961
+2015.0,2015,Campus Farm West - ABE Machine Shop,4101 N Campbell Ave,Tucson,AZ,85719,"3,224.00","2,552.00",32.281796,-110.9452961
+2017.0,2017,Food Product and Safety Laboratory,4101 N Campbell Ave,Tucson,AZ,85719,"21,040.00","15,557.00",32.281796,-110.9452961
+2018.0,2018,Campus Farm West - Covered Arena,4101 N Campbell Ave,Tucson,AZ,85719,"14,800.00","14,000.00",32.281796,-110.9452961
+2019.0,2019,William J. Parker Agricultural Research Complex,1650 E Limberlost Dr,Tucson,AZ,85719,"42,556.00","25,172.00",32.2827498,-110.9460086
+2023.0,2023,Campus Farm West - Maintenance Offices,4101 N Campbell Ave,Tucson,AZ,85719,"1,367.00","1,017.00",32.281796,-110.9452961
+2024.0,2024,Campus Farm West - Bovine Education &amp; Extension Facility,4101 N Campbell Ave,Tucson,AZ,85719,"2,000.00","1,930.00",32.281796,-110.9452961
+2026.0,2026,Campus Farm West - Old Water Tower,4101 N Campbell Ave,Tucson,AZ,85719,196.00,148.00,32.281796,-110.9452961
+2027.0,2027,Campus Farm West - Modular Classroom,4101 N Campbell Ave,Tucson,AZ,85719,"1,145.00","1,093.00",32.281796,-110.9452961
+2031.0,2031,Campus Farm West - Residence,4101 N Campbell Ave,Tucson,AZ,85719,"1,160.00",862.00,32.281796,-110.9452961
+2032.0,2032,Campus Farm West - Residence Garage,4101 N Campbell Ave,Tucson,AZ,85719,327.00,313.00,32.281796,-110.9452961
+2042.0,2042,Campus Farm West - Beef/Sheep HQ,4101 N Campbell Ave,Tucson,AZ,85719,"1,578.00","1,390.00",32.281796,-110.9452961
+2048.0,2048,Campus Farm West - Animal Nutrition Lab,4101 N Campbell Ave,Tucson,AZ,85719,"1,890.00","1,628.00",32.281796,-110.9452961
+2061.0,2061,Campus Farm East - Wildlife Storage,4040 N Campbell Ave,Tucson,AZ,85719,600.00,585.00,32.2803268,-110.9436408
+2065.0,2065,Campus Farm East - Storage,4040 N Campbell Ave,Tucson,AZ,85719,918.00,852.00,32.2803268,-110.9436408
+2068.0,2068,Campus Farm East,4040 N Campbell Ave,Tucson,AZ,85719,886.00,846.00,32.2803268,-110.9436408
+2069.0,2069,Campus Farm East - CAC Garage,4040 N Campbell Ave,Tucson,AZ,85719,"2,560.00","2,432.00",32.2803268,-110.9436408
+2069.01,2069A,Campus Farm East,4040 N Campbell Ave,Tucson,AZ,85719,"2,680.00","2,680.00",32.2803268,-110.9436408
+2070.0,2070,Campus Farm East - Residence,4040 N Campbell Ave,Tucson,AZ,85719,"1,768.00","1,664.00",32.2803268,-110.9436408
+2071.0,2071,Campus Farm East - Residence,4040 N Campbell Ave,Tucson,AZ,85719,"1,420.00","1,241.00",32.2803268,-110.9436408
+2072.0,2072,Campus Farm East - Residence Garage,4040 N Campbell Ave,Tucson,AZ,85719,489.00,450.00,32.2803268,-110.9436408
+2074.0,2074,Campus Farm East - CEAC Annex,4040 N Campbell Ave,Tucson,AZ,85719,"2,218.00","1,730.00",32.2803268,-110.9436408
+2075.0,2075,Campus Farm East - Fertilizer Building,1951 E Roger Rd,Tucson,AZ,85719,968.00,882.00,32.280079,-110.9422618
+2076.0,2076,Campus Farm East,4040 N Campbell Ave,Tucson,AZ,85719,529.00,483.00,32.2803268,-110.9436408
+2077.0,2077,Campus Farm East - Greenhouse,4040 N Campbell Ave,Tucson,AZ,85719,"4,637.00","4,524.00",32.2803268,-110.9436408
+2078.0,2078,Campus Farm East - Greenhouse,4040 N Campbell Ave,Tucson,AZ,85719,"4,637.00","4,524.00",32.2803268,-110.9436408
+2079.0,2079,G H Head House,1971 E Roger Rd,Tucson,AZ,85719,"3,211.00","1,691.00",32.281328,-110.942659
+2080.0,2080,Campus Farm East - Greenhouse Support Complex,4040 N Campbell Ave,Tucson,AZ,85719,"3,030.00","2,950.00",32.2803268,-110.9436408
+2081.0,2081,Campus Farm East - Greenhouse,4040 N Campbell Ave,Tucson,AZ,85719,"4,637.00","4,524.00",32.2803268,-110.9436408
+2082.0,2082,Campus Farm East - Greenhouse,4040 N Campbell Ave,Tucson,AZ,85719,"4,637.00","4,524.00",32.2803268,-110.9436408
+2084.0,2084,Tucson Village Farm,2201 E Roger Rd,Tucson,AZ,85719,"3,935.00","3,167.00",32.2798632,-110.9391707
+2085.01,2085A,Campus Farm East - Greenhouse Storage,4040 N Campbell Ave,Tucson,AZ,85719,864.00,864.00,32.2803268,-110.9436408
+2087.0,2087,Campus Farm East - CEAC Teaching GH,4040 N Campbell Ave,Tucson,AZ,85719,"5,283.00","5,184.00",32.2803268,-110.9436408
+2088.0,2088,Controlled Environment Ag Building,1951 E Roger Rd,Tucson,AZ,85719,"4,511.00","3,580.00",32.280079,-110.9422618
+2091.01,2091A,Campus Farm East - Greenhouse,4040 N Campbell Ave,Tucson,AZ,85719,"3,007.00","2,923.00",32.2803268,-110.9436408
+2091.03,2091C,Campus Farm East - Greenhouse,4040 N Campbell Ave,Tucson,AZ,85719,"3,007.00","2,923.00",32.2803268,-110.9436408
+2091.04,2091D,Campus Farm East - Utility Building,4040 N Campbell Ave,Tucson,AZ,85719,288.00,270.00,32.2803268,-110.9436408
+2092.0,2092,Campus Farm East - Pesticide Storage,4040 N Campbell Ave,Tucson,AZ,85719,963.00,816.00,32.2803268,-110.9436408
+2093.0,2093,Campus Farm East - CAC Garage Storage,4040 N Campbell Ave,Tucson,AZ,85719,"1,438.00","1,378.00",32.2803268,-110.9436408
+2094.0,2094,Campus Farm East - Field Crew HQ,4040 N Campbell Ave,Tucson,AZ,85719,840.00,816.00,32.2803268,-110.9436408
+2095.0,2095,Campus Farm East - CEAC Support,4040 N Campbell Ave,Tucson,AZ,85719,750.00,668.00,32.2803268,-110.9436408
+2096.0,2096,Campus Farm East - Fisheries Lab,4040 N Campbell Ave,Tucson,AZ,85719,"1,152.00",971.00,32.2803268,-110.9436408
+2097.0,2097,Campus Farm East - High Pressure Lab,4040 N Campbell Ave,Tucson,AZ,85719,300.00,258.00,32.2803268,-110.9436408
+2098.0,2098,Campus Farm East - Solvent Storage,4040 N Campbell Ave,Tucson,AZ,85719,546.00,532.00,32.2803268,-110.9436408
+2099.01,2099A,Pima Cooperative Ext Metal Storage Shed,4210 N Campbell Ave,Tucson,AZ,85719,"1,600.00","1,600.00",32.2824728,-110.9425493
+2101.0,2101,Red Rock Ag Center Shop,37697 S Experiment Station Rd,Red Rock,AZ,85245,"4,000.00","4,000.00",33.8706481,-83.4258245
+2102.0,2102,Red Rock Ag Center Residence A,37697 S Experiment Station Rd,Red Rock,AZ,85245,720.00,691.00,33.8706481,-83.4258245
+2103.0,2103,Red Rock Ag Center Residence B,37697 S Experiment Station Rd,Red Rock,AZ,85245,720.00,720.00,33.8706481,-83.4258245
+2206.0,2206,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,"1,535.00","1,347.00",32.6113113,-114.6355881
+2207.0,2207,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,442.00,423.00,32.6113113,-114.6355881
+2257.0,2257,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,245.00,211.00,32.6113113,-114.6355881
+2258.0,2258,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,"2,050.00",954.00,32.6113113,-114.6355881
+2260.0,2260,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,"1,822.00","1,646.00",32.6113113,-114.6355881
+2265.0,2265,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,720.00,692.00,32.6113113,-114.6355881
+2267.0,2267,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,574.00,550.00,32.6113113,-114.6355881
+2268.0,2268,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,574.00,550.00,32.6113113,-114.6355881
+2269.0,2269,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,622.00,610.00,32.6113113,-114.6355881
+2270.0,2270,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,860.00,826.00,32.6113113,-114.6355881
+2275.0,2275,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,"2,151.00","1,901.00",32.6113113,-114.6355881
+2276.0,2276,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,"1,200.00","1,087.00",32.6113113,-114.6355881
+2281.0,2281,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,"1,022.00",948.00,32.6113113,-114.6355881
+2286.0,2286,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,"1,050.00",964.00,32.6113113,-114.6355881
+2287.0,2287,Yuma Mesa Farm,2186 W County 15th St,Somerton,AZ,85364,"2,400.00","2,400.00",32.6113113,-114.6355881
+2323.0,2323,WCAC - Necropsy Laboratory,2831 N Freeway,Tucson,AZ,85705,"2,093.00","1,874.00",32.2585377,-111.0025721
+2324.0,2324,WCAC - AZ Vet. Diagnostic Lab,2831 N Freeway,Tucson,AZ,85705,"12,396.00","7,655.00",32.2585377,-111.0025721
+2325.0,2325,West Campus Agricultural Ctr,2831 N Freeway,Tucson,AZ,85705,"1,024.00",992.00,32.2585377,-111.0025721
+2327.0,2327,WCAC-Shrimp Virus Bldg.,2831 N Freeway,Tucson,AZ,85705,"1,896.00","1,728.00",32.2585377,-111.0025721
+2328.0,2328,Shrimp Pathology Facility,2831 N Freeway,Tucson,AZ,85705,"3,830.00","3,639.00",32.2585377,-111.0025721
+2328.01,2328A,Shrimp Pathology Facility,2831 N Freeway,Tucson,AZ,85705,"1,218.00",966.00,32.2585377,-111.0025721
+2333.0,2333,WCAC-AVDI Shop And Storage,2831 N Freeway,Tucson,AZ,85705,"1,120.00","1,050.00",32.2585377,-111.0025721
+2334.0,2334,WCAC-Aqua. Pth. Support,2831 N Freeway,Tucson,AZ,85705,"1,024.00",992.00,32.2585377,-111.0025721
+2335.0,2335,WCAC-Old Poultry Bldg,2831 N Freeway,Tucson,AZ,85705,"1,024.00",992.00,32.2585377,-111.0025721
+2336.0,2336,WCAC-Aqua. Pth. Support,2831 N Freeway,Tucson,AZ,85705,"1,024.00",992.00,32.2585377,-111.0025721
+2340.0,2340,WCAC-Old Aqua. Pth. Lab,2831 N Freeway,Tucson,AZ,85705,"1,320.00","1,076.00",32.2585377,-111.0025721
+2341.0,2341,WCAC - Quonset Hut,2831 N Freeway,Tucson,AZ,85705,"1,409.00","1,136.00",32.2585377,-111.0025721
+2342.0,2342,WCAC - Storage,2831 N Freeway,Tucson,AZ,85705,"1,545.00","1,463.00",32.2585377,-111.0025721
+2343.0,2343,West Campus Agricultural Ctr,2831 N Freeway,Tucson,AZ,85705,576.00,560.00,32.2585377,-111.0025721
+2501.0,2501,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"2,354.00","2,000.00",33.073553,-111.9737187
+2504.0,2504,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"3,755.00","3,246.00",33.073553,-111.9737187
+2510.0,2510,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"34,402.00","22,747.00",33.073553,-111.9737187
+2511.0,2511,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"6,007.00","5,435.00",33.073553,-111.9737187
+2512.0,2512,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"1,004.00",916.00,33.073553,-111.9737187
+2513.0,2513,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,200.00,170.00,33.073553,-111.9737187
+2514.0,2514,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,168.00,143.00,33.073553,-111.9737187
+2515.0,2515,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"5,885.00","5,215.00",33.073553,-111.9737187
+2516.0,2516,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"1,250.00","1,015.00",33.073553,-111.9737187
+2516.01,2516A,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,800.00,720.00,33.073553,-111.9737187
+2517.0,2517,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"4,000.00","3,600.00",33.073553,-111.9737187
+2518.0,2518,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"2,250.00","1,953.00",33.073553,-111.9737187
+2519.0,2519,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"2,489.00","2,242.00",33.073553,-111.9737187
+2520.0,2520,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"2,188.00","2,036.00",33.073553,-111.9737187
+2521.0,2521,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"2,188.00","2,036.00",33.073553,-111.9737187
+2522.0,2522,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"1,973.00","1,817.00",33.073553,-111.9737187
+2523.0,2523,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"1,973.00","1,817.00",33.073553,-111.9737187
+2524.0,2524,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"1,973.00","1,817.00",33.073553,-111.9737187
+2530.0,2530,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"3,315.00","2,847.00",33.073553,-111.9737187
+2531.0,2531,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"5,207.00","3,782.00",33.073553,-111.9737187
+2531.01,2531A,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"4,700.00","4,230.00",33.073553,-111.9737187
+2535.0,2535,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"2,160.00","2,058.00",33.073553,-111.9737187
+2536.0,2536,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"2,160.00","2,058.00",33.073553,-111.9737187
+2537.0,2537,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"2,160.00","2,058.00",33.073553,-111.9737187
+2538.0,2538,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"4,200.00","3,686.00",33.073553,-111.9737187
+2539.0,2539,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"2,160.00","2,058.00",33.073553,-111.9737187
+2543.0,2543,Maricopa Agricultural Center,37860 W Smith-Enke Rd,Maricopa,AZ,85138,"8,880.00","8,625.00",33.073553,-111.9737187
+2705.0,2705,Safford Farm,2134 S Montierth Ln,Safford,AZ,85546,370.00,242.00,32.8149226,-109.6808776
+2705.01,2705A,Safford Farm,2134 S Montierth Ln,Safford,AZ,85546,"1,516.00","1,389.00",32.8149226,-109.6808776
+2707.0,2707,Safford Farm,2134 S Montierth Ln,Safford,AZ,85546,128.00,113.00,32.8149226,-109.6808776
+2708.0,2708,Safford Farm,2134 S Montierth Ln,Safford,AZ,85546,400.00,370.00,32.8149226,-109.6808776
+2709.0,2709,Safford Farm,2134 S Montierth Ln,Safford,AZ,85546,116.00,90.00,32.8149226,-109.6808776
+2710.0,2710,Safford Farm,2134 S Montierth Ln,Safford,AZ,85546,"2,610.00","2,564.00",32.8149226,-109.6808776
+2716.0,2716,Safford Farm,2134 S Montierth Ln,Safford,AZ,85546,880.00,850.00,32.8149226,-109.6808776
+2717.0,2717,Safford Farm - Utility Education Building,2134 S Montierth Ln,Safford,AZ,85546,"1,200.00","1,200.00",32.8149226,-109.6808776
+2740.0,2740,1480 W Swift Tr/Base Camp,1480 W State Route 366,Safford,AZ,85546,"1,483.00",481.00,32.7188361,-109.7259517
+2750.0,2750,Marana KUAT Transmitter,9100 N I-10 Wb Frontage Rd,Marana,AZ,85742,893.00,788.00,29.5231591,-98.5568842
+2902.0,2902,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,"1,966.00","1,703.00",,
+2903.0,2903,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,384.00,346.00,,
+2905.0,2905,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,"2,140.00","1,640.00",,
+2906.0,2906,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,"2,744.00","2,585.00",,
+2911.0,2911,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,"3,174.00","2,901.00",,
+2915.0,2915,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,"5,208.00","5,206.00",,
+2918.0,2918,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,500.00,400.00,,
+2919.0,2919,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,"1,981.00","1,749.00",,
+2925.0,2925,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,231.00,211.00,,
+2926.0,2926,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,"1,440.00","1,314.00",,
+2927.0,2927,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,572.00,501.00,,
+2929.0,2929,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,118.00,112.00,,
+2930.0,2930,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,118.00,112.00,,
+2931.0,2931,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,136.00,130.00,,
+2933.0,2933,Glen G Curtis Bldg,6425 W 8 St,Yuma,AZ,85364,"19,631.00","12,746.00",,
+2934.0,2934,Yuma Valley Farm Machine Shop,6425 W 8 St,Yuma,AZ,85364,"3,200.00","3,100.00",,
+2935.0,2935,Yuma Valley Farm Greenhouse,6425 W 8 St,Yuma,AZ,85364,"2,988.00","2,988.00",,
+2936.0,2936,Yuma Valley Farm Greenhouse,6425 W 8 St,Yuma,AZ,85364,"2,988.00","2,988.00",,
+2937.0,2937,Yuma Valley Farm Shop,6425 W 8 St,Yuma,AZ,85364,"3,200.00","3,171.00",,
+2985.0,2985,Yuma Valley Farm,6425 W 8 St,Yuma,AZ,85364,815.00,767.00,,
+3001.0,3001,Arizona Biomedical Collaborative (ABC Building),425 N 5 St,Phoenix,AZ,85004,"37,966.00","25,117.00",,
+3002.0,3002,UA College Of Medicine-Phoenix (Administration),550 E Van Buren,Phoenix,AZ,85004,"27,946.00","11,854.00",33.451675,-112.0668674
+3002.01,3002A,UA College Of Medicine-Phoenix (Auditorium),600 E Van Buren,Phoenix,AZ,85004,"29,519.00","12,577.00",33.4513125,-112.0129095
+3002.02,3002B,UA College Of Medicine-Phoenix (Student Bldg),650 E Van Buren,Phoenix,AZ,85004,"27,837.00","12,570.00",33.451657,-112.065556
+3004.0,3004,Health Sciences Education Building,435 N 5 St,Phoenix,AZ,85004,"297,220.00","141,331.00",,
+3005.0,3005,Arizona Cancer Center - Phoenix,625 N 6th St,Phoenix,AZ,85004,"227,579.68","133,878.00",33.4549771,-112.0658147
+3006.0,3006,Biomedical Sciences Partnership Building - Phoenix,475 N 5th St,Phoenix,AZ,85004,"255,967.23","124,177.00",39.9601298,-75.1466579
+3007.0,3007,University Of Arizona Phoenix Plaza,714 E Van Buren,Phoenix,AZ,85006,"33,057.00","24,723.00",33.4516955,-112.0643109
+3103.0,3103,Campus Farm South - Greenhouse,2100 E Allen,Tucson,AZ,85719,"6,572.00","6,464.00",,
+3104.0,3104,Crop Improvement,2100 E Allen,Tucson,AZ,85719,"8,461.00","6,295.00",,
+3105.0,3105,Dairy Supervisor Residence,2100 E Allen,Tucson,AZ,85719,"1,438.00","1,354.00",,
+3118.0,3118,Campus Farm South,2100 E Allen,Tucson,AZ,85719,"2,234.00","2,054.00",,
+3120.0,3120,Campus Farm South - North Seed House,2100 E Allen,Tucson,AZ,85719,"7,254.00","7,075.00",,
+3138.0,3138,Campus Farm South - South Seed House,2100 E Allen,Tucson,AZ,85719,"6,791.00","5,765.00",,
+3139.0,3139,Entomology,2100 E Allen,Tucson,AZ,85719,982.00,784.00,,
+3139.02,3139B,Campus Farm South,2100 E Allen,Tucson,AZ,85719,112.00,101.00,,
+3139.03,3139C,Campus Farm South,2100 E Allen,Tucson,AZ,85719,112.00,101.00,,
+3139.04,3139D,Campus Farm South,2100 E Allen,Tucson,AZ,85719,112.00,101.00,,
+3139.07,3139G,Entomology,2100 E Allen,Tucson,AZ,85719,112.00,101.00,,
+3139.1,3139J,Entomology,2100 E Allen,Tucson,AZ,85719,112.00,101.00,,
+3140.0,3140,Earml South Entomology,2100 E Allen,Tucson,AZ,85719,"1,878.00","1,701.00",,
+3142.0,3142,Entomology,2100 E Allen,Tucson,AZ,85719,713.00,677.00,,
+3175.0,3175,Dairy,2100 E Allen,Tucson,AZ,85719,585.00,540.00,,
+3183.0,3183,Campus Farm South - Greenhouse,2100 E Allen,Tucson,AZ,85719,"1,606.00","1,445.00",,
+3184.0,3184,Campus Farm South - Greenhouse,2100 E Allen,Tucson,AZ,85719,"2,223.00","2,112.00",,
+3186.0,3186,Campus Farm South - Greenhouse,2100 E Allen,Tucson,AZ,85719,"1,900.00","1,748.00",,
+3188.0,3188,Campus Farm South - Greenhouse,2100 E Allen,Tucson,AZ,85719,542.00,511.00,,
+3190.0,3190,Campus Farm South - Dairy Shop,2100 E Allen,Tucson,AZ,85719,"1,938.00","1,784.00",,
+3191.0,3191,Campus Farm South - Warehouse,2100 E Allen,Tucson,AZ,85719,"2,017.00","1,990.00",,
+3192.0,3192,Campus Farm South - Greenhouse,2100 E Allen,Tucson,AZ,85719,"1,606.00","1,445.00",,
+3193.0,3193,Campus Farm South - Greenhouse,2100 E Allen,Tucson,AZ,85719,"1,606.00","1,445.00",,
+3196.0,3196,Campus Farm South - Greenhouse HQ,2100 E Allen,Tucson,AZ,85719,528.00,501.00,,
+3197.0,3197,Campus Farm South - Shadehouse,2100 E Allen,Tucson,AZ,85719,"1,606.00","1,445.00",,
+3198.0,3198,Campus Farm South - Greenhouse,2100 E Allen,Tucson,AZ,85719,"1,900.00","1,748.00",,
+3201.0,3201,WEST,2959 W Calle Agua Nueva,Tucson,AZ,85745,"21,957.58","16,325.00",25.6600289,-100.2237685
+3301.0,3301,Sunnyside - Shop/Records Mgmt,250 E Valencia,Tucson,AZ,85756,"19,041.00","15,991.00",,
+3302.0,3302,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,"1,848.00","1,811.00",,
+3302.01,3302A,Sunnyside - Records Mgmt,250 E Valencia,Tucson,AZ,85756,"4,774.00","4,681.00",,
+3303.0,3303,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,"3,825.00","3,824.00",,
+3304.0,3304,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,"3,672.00","2,905.00",,
+3305.0,3305,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,"3,672.00","3,496.00",,
+3306.0,3306,Sunnyside - Arid Lands,250 E Valencia,Tucson,AZ,85756,"16,214.00","11,020.00",,
+3307.0,3307,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,616.00,552.00,,
+3308.0,3308,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,616.00,544.00,,
+3309.0,3309,Sunnyside - Arid Lands,250 E Valencia,Tucson,AZ,85756,"12,711.00","7,546.00",,
+3309.01,3309A,Sunnyside - Greenhouse,250 E Valencia,Tucson,AZ,85756,"3,588.00","3,449.00",,
+3309.02,3309B,Sunnyside - Headhouse,250 E Valencia,Tucson,AZ,85756,638.00,614.00,,
+3309.03,3309C,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,50.00,50.00,,
+3309.04,3309D,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,162.00,162.00,,
+3310.0,3310,Sunnyside - Arid Lands,250 E Valencia,Tucson,AZ,85756,"4,046.00","3,713.00",,
+3310.01,3310A,Sunnyside - Greenhouse Service,250 E Valencia,Tucson,AZ,85756,302.00,302.00,,
+3310.02,3310B,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,77.00,77.00,,
+3311.0,3311,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,"4,046.00","3,831.00",,
+3312.0,3312,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,"1,848.00","1,748.00",,
+3313.0,3313,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,"1,848.00","1,848.00",,
+3314.0,3314,Sunnyside - Storage,250 E Valencia,Tucson,AZ,85756,"11,568.00","10,891.00",,
+3315.02,3315B,Sunnyside - Garage,250 E Valencia,Tucson,AZ,85756,576.00,540.00,,
+3400.0,3400,Mt Graham Telescope,Mt Graham,Safford,AZ,85546,"11,953.00","7,227.00",32.7017351,-109.8714684
+3401.0,3401,Mt Graham Utility Building,Mt Graham,Safford,AZ,85546,"1,520.00","1,412.00",32.7017351,-109.8714684
+3401.01,3401A,Mt Graham Utility Building,Mt Graham,Safford,AZ,85546,"1,315.00","1,186.00",32.7017351,-109.8714684
+3401.02,3401B,Mt Graham UAPD Guardhouse,Mt Graham,Safford,AZ,85546,140.00,140.00,32.7017351,-109.8714684
+3402.0,3402,Mt Graham Shop Building,1480 W State Route 366,Safford,AZ,85546,"1,500.00","1,436.00",32.7188361,-109.7259517
+3403.0,3403,Mt Graham Cable Reel Building,1480 W State Route 366,Safford,AZ,85546,900.00,840.00,32.7188361,-109.7259517
+3404.0,3404,Mt Graham Obs-Laundry Bldg,1480 W State Route 366,Safford,AZ,85546,576.00,508.00,32.7188361,-109.7259517
+3405.0,3405,Mt Graham Obs-Conference Bldg,1480 W State Route 366,Safford,AZ,85546,384.00,344.00,32.7188361,-109.7259517
+3406.0,3406,Mt Graham Obs-UAPD Bldg,1480 W State Route 366,Safford,AZ,85546,288.00,252.00,32.7188361,-109.7259517
+3501.0,3501,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,994.00,746.00,,
+3502.0,3502,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,676.00,540.00,,
+3503.0,3503,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,"1,300.00","1,040.00",,
+3504.0,3504,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,968.00,774.00,,
+3505.0,3505,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,"1,200.00",960.00,,
+3506.0,3506,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,"1,035.00",828.00,,
+3507.0,3507,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,"1,012.00",810.00,,
+3508.0,3508,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,822.00,658.00,,
+3509.0,3509,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,392.00,314.00,,
+3510.0,3510,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,528.00,422.00,,
+3511.0,3511,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,"1,056.00",898.00,,
+3512.0,3512,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,704.00,598.00,,
+3515.0,3515,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,72.00,58.00,,
+3516.0,3516,Santa Rita Experimental Range,27000 S Florida Canyon Rd,Sahuarita,AZ,85629,&nbsp;,0.00,,
+3551.0,3551,V BAR V - Office Trailer,4005 N Forest Road 618,Rimrock,AZ,86335,786.70,675.00,,
+3552.0,3552,V BAR V - Lab Trailer,4005 N Forest Road 618,Rimrock,AZ,86335,446.19,396.00,,
+3553.0,3553,V BAR V - Multi-Use,4005 N Forest Road 618,Rimrock,AZ,86335,"4,090.50","4,032.00",,
+3554.0,3554,V BAR V - Residence A,4005 N Forest Road 618,Rimrock,AZ,86335,"1,369.13","1,304.00",,
+3555.0,3555,V BAR V - Residence B,4005 N Forest Road 618,Rimrock,AZ,86335,"1,323.88","1,263.00",,
+3556.0,3556,V BAR V - Ranch House,Hwy 487 &amp; Forest Rd 81,Mahan Park,AZ,86024,"1,144.71","1,059.00",32.631852,-89.5239052
+3557.0,3557,V BAR V - Cabin,Hwy 487 &amp; Forest Rd 81,Mahan Park,AZ,86024,601.47,510.00,32.631852,-89.5239052
+3558.0,3558,V BAR V - Barn,Hwy 487 &amp; Forest Rd 81,Mahan Park,AZ,86024,948.47,759.00,32.631852,-89.5239052
+3559.0,3559,V BAR V - Shop,Hwy 487 &amp; Forest Rd 81,Mahan Park,AZ,86024,900.00,900.00,32.631852,-89.5239052
+3560.0,3560,Harold and Mitzie James 4-H Camp at Mingus Springs - Rec Hall,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,"1,127.22","1,057.00",34.5451094,-112.4700879
+3561.0,3561,Harold and Mitzie James 4-H Camp at Mingus Springs - Navajo Bunk House,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,400.00,327.00,34.5451094,-112.4700879
+3562.0,3562,Harold and Mitzie James 4-H Camp at Mingus Springs - Apache Bunk House,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,400.00,327.00,34.5451094,-112.4700879
+3563.0,3563,Harold and Mitzie James 4-H Camp at Mingus Springs - Zuni Bunk House,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,400.00,327.00,34.5451094,-112.4700879
+3564.0,3564,Harold and Mitzie James 4-H Camp at Mingus Springs - Hohokam Office,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,152.06,109.00,34.5451094,-112.4700879
+3565.0,3565,Harold and Mitzie James 4-H Camp at Mingus Springs - Dining Hall,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,"2,289.59","2,036.00",34.5451094,-112.4700879
+3566.0,3566,Harold and Mitzie James 4-H Camp at Mingus Springs - Anasazi Hlth Cott,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,609.90,459.00,34.5451094,-112.4700879
+3567.0,3567,Harold and Mitzie James 4-H Camp at Mingus Springs - Restrooms/Showers,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,849.69,738.00,34.5451094,-112.4700879
+3568.0,3568,Harold and Mitzie James 4-H Camp at Mingus Springs - Storage,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,188.60,160.00,34.5451094,-112.4700879
+3569.0,3569,Harold and Mitzie James 4-H Camp at Mingus Springs - Havasu Bunk House,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,907.02,436.00,34.5451094,-112.4700879
+3570.0,3570,Harold and Mitzie James 4-H Camp at Mingus Springs - Large Bunk House,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,"2,537.15","1,790.00",34.5451094,-112.4700879
+3571.0,3571,Harold and Mitzie James 4-H Camp at Mingus Springs - Pump House,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,129.10,0.00,34.5451094,-112.4700879
+3572.0,3572,Harold and Mitzie James 4-H Camp at Mingus Springs - Power House,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,192.00,0.00,34.5451094,-112.4700879
+3573.0,3573,Harold and Mitzie James 4-H Camp at Mingus Springs - Cook&#39;s Cabin,AZ-89 ALT &amp; NF-104,Mingus Mtn,AZ,86326,865.38,764.00,34.5451094,-112.4700879
+3601.0,3601,Al-Marah - Office,4101 N Bear Canyon Rd,Tucson,AZ,85749,"3,376.00","2,870.00",32.2803572,-110.8012145
+3602.0,3602,Al-Marah - Customer Barn,4101 N Bear Canyon Rd,Tucson,AZ,85749,"3,201.00","2,721.00",32.2803572,-110.8012145
+3603.0,3603,Al-Marah - Pasture Residence,4101 N Bear Canyon Rd,Tucson,AZ,85749,"3,352.00","2,849.00",32.2803572,-110.8012145
+3604.0,3604,Al-Marah - Main Residence,4101 N Bear Canyon Rd,Tucson,AZ,85749,"3,432.00","2,917.00",32.2803572,-110.8012145
+3604.01,3604A,Al-Marah - Kennel,4101 N Bear Canyon Rd,Tucson,AZ,85749,605.00,514.00,32.2803572,-110.8012145
+3604.02,3604B,Al-Marah - Storage,4101 N Bear Canyon Rd,Tucson,AZ,85749,594.00,505.00,32.2803572,-110.8012145
+3604.03,3604C,Al-Marah - Restroom,4101 N Bear Canyon Rd,Tucson,AZ,85749,39.00,33.00,32.2803572,-110.8012145
+3605.0,3605,Al-Marah - Indoor Arena,4101 N Bear Canyon Rd,Tucson,AZ,85749,"22,965.00","22,885.00",32.2803572,-110.8012145
+3606.0,3606,Al-Marah - NE Residence,4101 N Bear Canyon Rd,Tucson,AZ,85749,"4,267.00","3,627.00",32.2803572,-110.8012145
+3607.0,3607,Al-Marah - Stud Barn,4101 N Bear Canyon Rd,Tucson,AZ,85749,"10,500.00","8,925.00",32.2803572,-110.8012145
+3608.0,3608,Al-Marah - Hay Barn,4101 N Bear Canyon Rd,Tucson,AZ,85749,"3,289.00","3,125.00",32.2803572,-110.8012145
+3609.0,3609,Al-Marah - Show Barn 14 Stall,4101 N Bear Canyon Rd,Tucson,AZ,85749,"5,819.00","4,946.00",32.2803572,-110.8012145
+3610.0,3610,Al-Marah - Outdoor Arena,4101 N Bear Canyon Rd,Tucson,AZ,85749,"14,257.00","13,544.00",32.2803572,-110.8012145
+3611.0,3611,Al-Marah - Show Barn 16 Stall,4101 N Bear Canyon Rd,Tucson,AZ,85749,"6,865.00","5,835.00",32.2803572,-110.8012145
+3612.0,3612,Al-Marah - Caretaker Residence,4101 N Bear Canyon Rd,Tucson,AZ,85749,"1,354.00","1,151.00",32.2803572,-110.8012145
+3613.0,3613,Al-Marah - South Residence,4101 N Bear Canyon Rd,Tucson,AZ,85749,"1,084.00",921.00,32.2803572,-110.8012145
+3651.0,3651,Cracchiolo DK Ranch - Livestock Barn,225 S Merritt Ranch Rd,Cornville,AZ,86325,"3,666.18","3,404.00",34.735278,-111.916582
+3652.0,3652,Cracchiolo DK Ranch - Horse Barn,225 S Merritt Ranch Rd,Cornville,AZ,86325,"6,630.56","6,392.00",34.735278,-111.916582
+3653.0,3653,Cracchiolo DK Ranch - Meeting/Tack Room,225 S Merritt Ranch Rd,Cornville,AZ,86325,"1,710.57",984.00,34.735278,-111.916582
+3655.0,3655,Cracchiolo DK Ranch - Guest House,225 S Merritt Ranch Rd,Cornville,AZ,86325,333.06,300.00,34.735278,-111.916582
+3656.0,3656,Cracchiolo DK Ranch - Main House,225 S Merritt Ranch Rd,Cornville,AZ,86325,"4,297.37","2,734.00",34.735278,-111.916582
+3657.0,3657,Cracchiolo DK Ranch - Pump House,225 S Merritt Ranch Rd,Cornville,AZ,86325,190.26,0.00,34.735278,-111.916582
+3701.0,3701,The Bridges - Mission Integration Lab,2620 S Catalyst Dr,Tucson,AZ,85713,"5,391.00","4,244.00",32.1896051,-110.9478737
+3702.0,3702,The Bridges - Refinery Building,1600 E Idea Ln,Tucson,AZ,85713,"55,150.00","34,450.00",32.1867781,-110.9474809
+4000.0,4000,Biosphere 2,32540 S Biosphere Rd,Oracle,AZ,85623,"178,189.00","129,452.00",32.5787326,-110.850689
+4000.01,4000A,Biosphere 2 Ocean Viewing Gallery,32540 S Biosphere Rd,Oracle,AZ,85623,"8,403.00","4,263.00",32.5787326,-110.850689
+4001.0,4001,Biosphere 2 Planning Center,32540 S Biosphere Rd,Oracle,AZ,85623,"9,302.00","4,771.00",32.5787326,-110.850689
+4001.01,4001A,Biosphere 2 Planning Center Annex,32540 S Biosphere Rd,Oracle,AZ,85623,501.00,0.00,32.5787326,-110.850689
+4002.0,4002,Biosphere 2 Faculty Building A,32540 S Biosphere Rd,Oracle,AZ,85623,"1,440.00",815.00,32.5787326,-110.850689
+4005.0,4005,Biosphere 2 Faculty Building D,32540 S Biosphere Rd,Oracle,AZ,85623,"1,475.00",831.00,32.5787326,-110.850689
+4006.0,4006,Biosphere 2 South Lung,32540 S Biosphere Rd,Oracle,AZ,85623,"26,254.00","25,873.00",32.5787326,-110.850689
+4007.0,4007,Biosphere 2 West Lung,32540 S Biosphere Rd,Oracle,AZ,85623,"26,254.00","25,873.00",32.5787326,-110.850689
+4008.0,4008,Biosphere 2 Energy Center,32540 S Biosphere Rd,Oracle,AZ,85623,"23,881.00","21,780.00",32.5787326,-110.850689
+4009.0,4009,Biosphere 2 Cooling Towers,32540 S Biosphere Rd,Oracle,AZ,85623,"7,384.00",0.00,32.5787326,-110.850689
+4010.0,4010,Biosphere 2 Analytical Lab,32540 S Biosphere Rd,Oracle,AZ,85623,"5,602.77","3,563.00",32.5787326,-110.850689
+4030.0,4030,Biosphere 2 Visitor Center,32540 S Biosphere Rd,Oracle,AZ,85623,"4,901.00","4,194.00",32.5787326,-110.850689
+4031.0,4031,Biosphere 2 Food Court,32540 S Biosphere Rd,Oracle,AZ,85623,"1,970.00","1,453.00",32.5787326,-110.850689
+4032.0,4032,Biosphere 2 Theater,32540 S Biosphere Rd,Oracle,AZ,85623,"2,623.00","1,928.00",32.5787326,-110.850689
+4033.0,4033,Biosphere 2 Residential A,32540 S Biosphere Rd,Oracle,AZ,85623,"4,107.00","3,496.00",32.5787326,-110.850689
+4034.0,4034,Biosphere 2 Residential B,32540 S Biosphere Rd,Oracle,AZ,85623,"4,107.00","3,497.00",32.5787326,-110.850689
+4035.0,4035,Biosphere 2 Residential C,32540 S Biosphere Rd,Oracle,AZ,85623,"3,602.00","3,047.00",32.5787326,-110.850689
+4036.0,4036,Biosphere 2 Residential D,32540 S Biosphere Rd,Oracle,AZ,85623,"2,065.00","1,786.00",32.5787326,-110.850689
+4037.0,4037,Biosphere 2 Residential E,32540 S Biosphere Rd,Oracle,AZ,85623,"4,160.00","3,569.00",32.5787326,-110.850689
+4038.0,4038,Biosphere 2 Residential F,32540 S Biosphere Rd,Oracle,AZ,85623,"3,599.00","3,125.00",32.5787326,-110.850689
+4040.0,4040,Biosphere 2 Residential G,32540 S Biosphere Rd,Oracle,AZ,85623,"3,599.00","3,125.00",32.5787326,-110.850689
+4041.0,4041,Biosphere 2 Residential H,32540 S Biosphere Rd,Oracle,AZ,85623,"4,061.00","3,492.00",32.5787326,-110.850689
+4042.0,4042,Biosphere 2 Residential J,32540 S Biosphere Rd,Oracle,AZ,85623,"3,599.00","3,125.00",32.5787326,-110.850689
+4043.0,4043,Biosphere 2 Residential K,32540 S Biosphere Rd,Oracle,AZ,85623,"3,542.00","3,017.00",32.5787326,-110.850689
+4044.0,4044,Biosphere 2 Residential L,32540 S Biosphere Rd,Oracle,AZ,85623,"1,856.00","1,602.00",32.5787326,-110.850689
+4045.0,4045,Biosphere 2 Residential M,32540 S Biosphere Rd,Oracle,AZ,85623,"4,066.00","3,324.00",32.5787326,-110.850689
+4046.0,4046,Biosphere 2 Residential N,32540 S Biosphere Rd,Oracle,AZ,85623,"4,162.00","3,450.00",32.5787326,-110.850689
+4047.0,4047,Biosphere 2 Residential P,32540 S Biosphere Rd,Oracle,AZ,85623,"3,799.00","3,108.00",32.5787326,-110.850689
+4048.0,4048,Biosphere 2 Residential Q,32540 S Biosphere Rd,Oracle,AZ,85623,"4,107.00","3,433.00",32.5787326,-110.850689
+4065.01,4065A,Biosphere 2 Observatory A,32540 S Biosphere Rd,Oracle,AZ,85623,192.00,192.00,32.5787326,-110.850689
+4065.02,4065B,Biosphere 2 Observatory B,32540 S Biosphere Rd,Oracle,AZ,85623,192.00,192.00,32.5787326,-110.850689
+4065.03,4065C,Biosphere 2 Observatory C,32540 S Biosphere Rd,Oracle,AZ,85623,192.00,192.00,32.5787326,-110.850689
+4065.04,4065D,Biosphere 2 Observatory D,32540 S Biosphere Rd,Oracle,AZ,85623,192.00,192.00,32.5787326,-110.850689
+4065.05,4065E,Biosphere 2 Observatory E,32540 S Biosphere Rd,Oracle,AZ,85623,192.00,192.00,32.5787326,-110.850689
+4102.0,4102,University of Arizona - 55 Chandler,"55 N Arizona Place, Ste 310",Chandler,AZ,85225,"8,563.00","7,258.00",33.3040859,-111.8404469
+4103.0,4103,Scottsdale Waterfront,7135 E Camelback Rd,Scottsdale,AZ,85251,"28,286.00","18,313.00",33.5018985,-111.9073682
+4104.0,4104,University of Arizona - 1811 Chandler,1811 E Northrop Blvd,Chandler,AZ,85286,"130,642.00","130,642.00",33.2799891,-111.8107927
+4105.0,4105,University of Arizona - 180 Chandler,"180 S Arizona Ave, Ste 301",Chandler,AZ,85225,"10,801.00","10,801.00",33.301001,-111.8418139
+7002.0,7002,TBD,2ND ST &amp; PARK AVE,Tucson,AZ,85721,0.00,0.00,,
+7003.0,7003,Glendale Community College,6000 W Olive Avenue,Glendale,AZ,&nbsp;,0.00,0.00,33.5694833,-112.1908164
+7005.0,7005,Mesa Community College (MCC),1833 W Southern Avenue,Mesa,AZ,85202,0.00,0.00,33.3906212,-111.869698
+7500.0,&nbsp;,Maricopa Agricultural Center,37860 W. Smith-Enke Road,Maricopa,AZ,&nbsp;,0.00,0.00,33.073553,-111.9737187
+7500.0,&nbsp;,Maricopa Agricultural Center,37860 W. Smith-Enke Road,Maricopa,AZ,&nbsp;,0.00,0.00,33.073553,-111.9737187
+7501.0,&nbsp;,University of Arizona South Campus,1140 N. Colombo Ave.,Sierra Vista,AZ,&nbsp;,0.00,0.00,31.5668068,-110.2457598
+7502.0,&nbsp;,Tucson Mall parking lot,4500 N. Oracle Rd. Pad 09,Tucson,AZ,&nbsp;,0.00,0.00,32.2874806,-110.9736691
+7503.0,&nbsp;,U of A Tucson Agricultural Center,Campbell Farms East,Tucson,AZ,85719,0.00,0.00,,
+7504.0,&nbsp;,&quot;ABOR ROW&quot;,N TYNDALL AVENUE,Tucson,AZ,&nbsp;,0.00,0.00,32.251647,-110.9580488
+9040.0,9040,UA Science and Tech Park,9040 S Rita Rd,Tucson,AZ,85747,"27,629.00","17,187.00",32.0919287,-110.8089283
+99001.0,99001,Bta Main Bldg,37615 East Highway 60 Superior,Superior,AZ,85274,0.00,0.00,36.3926398,-82.4536115
+99003.0,99003,1215 N. Beaver #201,1215 N Beaver St #201/Flgstf,Flagstaff,AZ,86001,0.00,0.00,,
+99005.0,99005,Storage Shed,655 N. Alvernon,Tucson,AZ,85712,0.00,0.00,32.2301959,-110.9100088
+99007.0,99007,"Guthrie Peak/ Kuat Safford, AZ",32-39-01 North 109-50-53 West,Clifton,AZ,85533,0.00,0.00,,
+99009.0,99009,University Of Idaho-Aquaculture Research Station,3059 F National Fish Hatch Rd.,Hagerman,ID,83332,0.00,0.00,42.7598501,-114.8562835
+99011.0,99011,"Fermi Lab, Batavia, Il","Wilson &amp; Kirk Road, Po Box 500",Batavia,IL,60510,0.00,0.00,,
+99012.0,99012,White River Indian Reservation,"Po Box 860, State Rte 73, Milepost 342",White River,AZ,85941,0.00,0.00,39.03373,-83.4830745
+99014.0,99014,"Keams Canyon, AZ",Hwy 264/ Keams Canyon Housing,Keams Canyon,AZ,86034,0.00,0.00,35.8207836,-110.2180355
+99015.0,99015,Tuba City AZ,167 N Main St,Tuba City,AZ,86045,0.00,0.00,,
+99017.0,99017,Yuma County/ Ag Ext,"2200 W 28th Street, Suite 102",Yuma,AZ,85364,0.00,0.00,34.0296934,-118.3149926
+99018.0,99018,Yavapai County/ Ag Ext Main Office,840 Rodeo Dr,Prescott,AZ,86305,0.00,0.00,34.0565242,-118.3997445
+99019.0,99019,Santa Cruz County/ Ag Ext,489 N Arroyo Blvd,Nogales,AZ,85621,0.00,0.00,34.15272849999999,-118.166596
+99020.0,99020,Pinal County/Ag Ext,820 E Cottonwood Ln. Bldng C,Casa Grande,AZ,85122,0.00,0.00,32.894979,-111.742636
+99021.0,99021,Pima County/Ag Ext,"4210 N Campbell Tucson, Az",Tucson,AZ,85719,0.00,0.00,32.2824728,-110.9425493
+99022.0,99022,La Paz County/Ag Ext,"2524 Mutahar Parker, Az",Parker,AZ,85344,0.00,0.00,34.1305833,-114.2746561
+99023.0,99023,Navajo County/ Ag Ext,"748 N. 3rd Street, Holbrook AZ 86025",Holbrook,AZ,86025,0.00,0.00,34.90754039999999,-110.1549884
+99024.0,99024,Mohave County/ Ag Ext,101 E Beale St Suite A Kingman,Kingman,AZ,86401,0.00,0.00,35.1904265,-114.0574642
+99025.0,99025,Maricopa County/Ag Ext,"4341 E Broadway Rd. Phx, Az",Phoenix,AZ,85040,0.00,0.00,33.4068913,-111.9876473
+99027.0,99027,Graham County/Ag Ext,"2100 S Bowie Solomon, Az",Solomon,AZ,85551,0.00,0.00,32.8154764,-109.6309877
+99029.0,99029,Gila County/Ag Ext,107 W Frontier St Bldg C Payson,Payson,AZ,85541,0.00,0.00,34.2318149,-111.3251315
+99030.0,99030,Coconino County/Ag Ext,"2304 N 3rd St Flagstaff, Az",Flagstaff,AZ,86004,0.00,0.00,35.2110495,-111.6142648
+99031.0,99031,Cochise County/Ag Ext,"450 S Haskell Ave Wilcox, Az",Wilcox,AZ,85643,0.00,0.00,32.2487339,-109.8353555
+99032.0,99032,Apache County/Ag Ext,"845 W 4th North St. John, Az",St John,AZ,85936,0.00,0.00,34.5126727,-109.3843672
+99035.0,99035,Usda Bee Research,2000 E Allen Rd Tucson 85719,Tucson,AZ,85719,0.00,0.00,32.2748225,-110.9415392
+99036.0,99036,855 W Bell Rd Nogales,855 W Bell Rd Nogales,Nogales,AZ,85621,0.00,0.00,31.36183219999999,-110.9485637
+99037.0,99037,Amado Base Camp,"670 Mt Hopkins Amado, Az 85645",Amado,AZ,85645,0.00,0.00,31.6752309,-110.9519964
+99038.0,99038,Pima College,2202 W Anklam Rd Tucson 85709,Tucson,AZ,85709,0.00,0.00,32.2275173,-111.0166529
+99041.0,99041,Sage Memorial Hospital,Pobox 457 Hwy 264 &amp; Us 191,Ganado,AZ,86505,0.00,0.00,,
+99042.0,99042,LBT Observatory Mt Graham,1480 W State Route 366,Safford,AZ,85546,0.00,0.00,32.7188361,-109.7259517
+99043.0,99043,UPI Clinics,707 N Alvernon Tucson 85711,Tucson,AZ,85711,0.00,0.00,32.2310399,-110.910117
+99045.0,99045,Veterans Hospital,3601 S 6th Ave Tucson 85723,Tucson,AZ,85723,0.00,0.00,32.1798545,-110.965827
+99046.0,99046,AZ State Prison Yuma,7125 E Juan Sanchez Blvd,San Luis,AZ,85349,0.00,0.00,32.4906316,-114.7822313
+99047.0,99047,NAU Flagstaff,307 W Tormey Dr. Flag Az 86011,Flagstaff,AZ,86011,0.00,0.00,35.1924152,-111.6567522
+99050.0,99050,Avra Valley Test Site,11415 W Ajo Way Tcsn Az 85735,Tucson,AZ,85735,0.00,0.00,32.110515,-111.208595
+99051.0,99051,Mt Hopkins Whipple Observatory,"670 Mt Hopkins Rd Amado, Az",Amado,AZ,85645,0.00,0.00,31.6752309,-110.9519964
+99073.0,99073,Vatican Telescope Mt Graham,12500 W Swift Trail,Safford,AZ,85546,0.00,0.00,32.7299019,-109.711495
+99074.0,99074,AZ Health Sciences Ctr/Leased,1501 N. Campbell Ave.,Tucson,AZ,85724,0.00,0.00,32.240413,-110.9466397
+99075.0,99075,National Optical Astronomy Observatory,950 North Cherry,Tucson,AZ,85726,0.00,0.00,40.4588818,-85.37116809999999
+99076.0,99076,Mirror Lab Storage Facility,250 E Valencia,Tucson,AZ,85706,0.00,0.00,,
+99077.0,99077,Trans-Genomics Research Building,"445 N. Fifth Street, Suite 600",Phoenix,AZ,85004,0.00,0.00,,
+99078.0,99078,2830 N Commonwealth Dr #103,2830 N Commonwealth Dr. #103,Camp Verde,AZ,86322,&nbsp;,0.00,,
+99079.0,99079,840 Rodeo Dr Bldg C,"840 Rodeo Drive, Building C",Prescott,AZ,86305,&nbsp;,0.00,34.0565242,-118.3997445
+99080.0,99080,Greenlee County/ Ag Ext,1684 Fairgrounds Rd Duncan 85534,Duncan,AZ,85534,&nbsp;,0.00,32.7402167,-109.0985729
+99082.0,99082,Pinal County/ Ag Ext Satellite Office,"615 W. Cottonwood Lane, Suite 8, Casa Grande",Casa Grande,AZ,85722,&nbsp;,0.00,32.893673,-111.762298
+99083.0,99083,Hand Clinic,"3055 N Campbell Ave., Suite 113",Tucson,AZ,85719,&nbsp;,0.00,32.2623753,-110.9443929
+99084.0,99084,Gila County-Globe/AG EXT,5515 S Apache Ave,Globe,AZ,85501,&nbsp;,0.00,31.4690258,-110.2618099
+99085.0,99085,Banner UMC-Sierra Vista,"3533 Canyon de Flores, Suite C",Sierra Vista,AZ,85650,&nbsp;,0.00,31.5047467,-110.2558319
+99087.0,99087,Banner University-South,2800 E Ajo Way,Tucson,AZ,85714,&nbsp;,0.00,32.1763278,-110.9299511
