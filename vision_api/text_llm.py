@@ -1,72 +1,58 @@
-# import os
-# import requests
-# from dotenv import load_dotenv
-
-
-# load_dotenv()
-
-
-# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-# LLM_BASE = os.getenv("LLM_BASE")
-# MODEL_ID = os.getenv("MODEL_ID")
-
-# def query_text_only(prompt):
-#     url = f"{LLM_BASE}/v1/chat/completions"
-#     headers = {
-#         "Authorization": f"Bearer {OPENAI_API_KEY}",
-#         "Content-Type": "application/json"
-#     }
-
-#     payload = {
-#         "model": MODEL_ID,
-#         "messages": [
-#             {"role": "system", "content": "You are an accessibility-focused assistant. Reword the navigation directions to be very easy for a person with disability to understand."},
-#             {"role": "user", "content": prompt}
-#         ],
-#         "temperature": 0.2,
-#         "max_tokens": 800
-#     }
-
-#     try:
-#         response = requests.post(url, headers=headers, json=payload)
-#         response.raise_for_status()
-#         data = response.json()
-#         return data["choices"][0]["message"]["content"]
-#     except requests.exceptions.RequestException as e:
-#         print("[ERROR] Failed to fetch from LLM:", e)
-#         return "❗ Sorry, the AI could not generate optimized instructions at the moment."
-
 import os
-import requests
+import google.generativeai as genai
 from dotenv import load_dotenv
-
 
 load_dotenv()
 
-
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
-
 def generate_llm_response(directions_text):
-    try:
-        prompt = f"Rewrite the following directions to be simple, step-by-step, and accessible to a person with disabilities:\n\n{directions_text}"
-
-        payload = {
-            "contents": [
-                {
-                    "parts": [{"text": prompt}]
-                }
-            ]
-        }
-
-        headers = {
-            "Content-Type": "application/json"
-        }
-
-        response = requests.post(GEMINI_API_URL, headers=headers, json=payload)
-        response.raise_for_status()
-        return response.json()["candidates"][0]["content"]["parts"][0]["text"]
+    """
+    Enhances navigation directions using Google's Gemini API to make them more
+    accessible for people with disabilities.
     
+    Args:
+        directions_text (str): The raw directions from Google Maps API
+    
+    Returns:
+        str: Enhanced, more accessible directions
+    """
+    # Get API key from environment or use hardcoded key
+    gemini_api_key = os.getenv("GEMINI_API_KEY", "AIzaSyBrR1JKgtYcbaosJnEqGMmGgQETO2V4y7g")
+    
+    # Use the simpler, more focused prompt
+    prompt = f"""
+    You are a friendly, helpful guide giving walking directions to someone who may have a disability. 
+    Rewrite the directions in a calm, clear, and human tone — like you're speaking to someone in person, not a machine.
+
+    Use numbered steps (1., 2., 3., etc.) to make the instructions easy to follow. Keep each step short, natural, and a little descriptive — not robotic, not overly detailed.
+
+    Mention things like turning left/right, street names, or landmarks only if they're in the original directions. Do not add extra info or guess anything. 
+    Avoid technical terms and keep it simple and kind.
+
+    Here are the original directions:
+    {directions_text}
+    """
+
+
+
+    
+    try:
+        # Configure the Gemini API
+        genai.configure(api_key=gemini_api_key)
+        
+        # Initialize the model
+        model = genai.GenerativeModel(model_name="gemini-1.5-flash")
+        
+        # Generate the enhanced directions
+        response = model.generate_content(prompt)
+        
+        # Return the enhanced directions
+        if response.text:
+            return response.text
+        else:
+            print("No response text from Gemini API")
+            return directions_text
+            
     except Exception as e:
-        print("[ERROR] Failed to fetch from Gemini LLM:", e)
-        return "Sorry, I couldn't process the navigation instructions right now."
+        print(f"Exception when calling Gemini API: {str(e)}")
+        # Fall back to the original directions if exception occurs
+        return directions_text

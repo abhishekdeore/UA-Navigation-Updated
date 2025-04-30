@@ -231,6 +231,10 @@ async def nearby_buildings(req: Request):
         print(f"Error in nearby_buildings: {e}")
         return JSONResponse(content={"message": f"⚠️ Error finding nearby buildings: {str(e)}"}, status_code=500)
 
+# First, add the import at the top of the file
+from vision_api.text_llm import generate_llm_response
+
+# Then update the navigate endpoint to use the LLM
 @app.post("/navigate")
 async def navigate(req: Request):
     try:
@@ -271,7 +275,7 @@ async def navigate(req: Request):
             "origin": f"{src_lat},{src_lon}",
             "destination": f"{dest_lat},{dest_lon}",
             "mode": "walking",
-            "key": os.getenv("GOOGLE_API_KEY") or "AIzaSyBrR1JKgtYcbaosJnEqGMmGgQETO2V4y7g"
+            "key": "AIzaSyBrR1JKgtYcbaosJnEqGMmGgQETO2V4y7g"
         }
         
         print(f"Calling Directions API with params: {params}")
@@ -293,18 +297,21 @@ async def navigate(req: Request):
         if not steps:
             return JSONResponse(content={"message": "⚠️ No directions found."}, status_code=500)
         
-        # Format the directions instead of using LLM
-        directions = format_directions(steps)
+        # Format the basic directions first
+        basic_directions = format_directions(steps)
         
         # Add distance and duration if available
         try:
             distance = data["routes"][0]["legs"][0]["distance"]["text"]
             duration = data["routes"][0]["legs"][0]["duration"]["text"]
-            directions = f"Total Distance: {distance} | Est. Time: {duration}\n\n{directions}"
+            basic_directions = f"Total Distance: {distance} | Est. Time: {duration}\n\n{basic_directions}"
         except:
             pass
         
-        return {"directions": directions}
+        # Use LLM to enhance the directions for universal accessibility
+        enhanced_directions = generate_llm_response(basic_directions)
+        
+        return {"directions": enhanced_directions}
     except Exception as e:
         print(f"Error in navigate: {e}")
         return JSONResponse(content={"message": f"⚠️ Failed to get directions: {str(e)}"}, status_code=500)

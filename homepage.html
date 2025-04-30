@@ -5,18 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>UA Nav Access | Home</title>
   <!-- <link rel="manifest" href="manifest.json" /> -->
-<!-- <link rel="icon" type="image/png" href="icon1.png" /> -->
-<!-- <meta name="theme-color" content="#a6192e" />
-
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./service-worker.js')
-        .then(reg => console.log('Service worker registered!', reg))
-        .catch(err => console.error('Service worker NOT registered', err));
-    });
-  }
-</script> -->
+  <!-- <link rel="icon" type="image/png" href="icon1.png" /> -->
+  <!-- <meta name="theme-color" content="#a6192e" /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
@@ -34,7 +26,11 @@
     }
     header h1 {
       margin: 0;
-      font-size: 1.5rem;
+      font-size: 1.8rem;
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
     nav a {
       color: white;
@@ -48,6 +44,7 @@
     }
     .container h2 {
       color: #003366;
+      font-family: 'Merriweather', serif;
     }
     #map {
       width: 90%;
@@ -55,6 +52,9 @@
       border: 1px solid #ccc;
       border-radius: 12px;
       margin-top: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
     }
     .chat-fab {
       position: fixed;
@@ -91,19 +91,16 @@
       overflow: hidden;
       display: none;
       z-index: 999;
+      max-height: calc(100vh - 120px);
     }
     .chat-fullscreen {
       position: fixed;
       top: 0;
       left: 0;
-      width: 100vw;
+      width: 100%;
       height: 100vh;
       border-radius: 0;
-    }
-    .chat-fullscreen #map,
-    .chat-fullscreen .leaflet-control-attribution,
-    .chat-fullscreen .leaflet-control-zoom {
-      display: none;
+      z-index: 9999;
     }
     .chat-modal iframe {
       width: 100%;
@@ -118,6 +115,7 @@
       cursor: pointer;
       color: #999;
       font-weight: bold;
+      z-index: 1001;
     }
     .chat-expand {
       position: absolute;
@@ -127,6 +125,7 @@
       cursor: pointer;
       color: #003366;
       font-weight: bold;
+      z-index: 1001;
     }
   </style>
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -134,7 +133,7 @@
 </head>
 <body>
   <header>
-    <h1>University of Arizona</h1>
+    <h1>The University of Arizona</h1>
     <nav>
       <a href="#">UA NavAccess</a>
     </nav>
@@ -149,7 +148,7 @@
   <div class="chat-modal" id="chatModal">
     <span class="chat-close" onclick="toggleChat()">×</span>
     <span class="chat-expand" onclick="toggleFullscreen()">⛶ Fullscreen</span>
-    <iframe src="chatbot_ui.html"></iframe>
+    <iframe src="chatbot_ui.html" id="chatFrame"></iframe>
   </div>
 
   <div class="chat-fab" onclick="toggleChat()" title="Open Chatbot">
@@ -170,15 +169,27 @@
       const modal = document.getElementById('chatModal');
       modal.style.display = modal.style.display === 'block' ? 'none' : 'block';
       modal.classList.remove('chat-fullscreen');
+      document.querySelector('.chat-expand').innerHTML = "⛶ Fullscreen";
     }
 
     function toggleFullscreen() {
       const modal = document.getElementById('chatModal');
       modal.classList.toggle('chat-fullscreen');
+      
+      // Update the button text based on state
+      const expandBtn = document.querySelector('.chat-expand');
       if (modal.classList.contains('chat-fullscreen')) {
-        map.getContainer().style.display = 'none';
+        expandBtn.innerHTML = "⬋ Exit Fullscreen";
+        // Hide the map when in fullscreen
+        document.querySelector('.container').style.display = 'none';
+        // Tell iframe we're in fullscreen
+        document.getElementById('chatFrame').contentWindow.postMessage('fullscreen', '*');
       } else {
-        map.getContainer().style.display = 'block';
+        expandBtn.innerHTML = "⛶ Fullscreen";
+        // Show the map when exiting fullscreen
+        document.querySelector('.container').style.display = 'block';
+        // Tell iframe we're exiting fullscreen
+        document.getElementById('chatFrame').contentWindow.postMessage('normal', '*');
       }
     }
   </script>
